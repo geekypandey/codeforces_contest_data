@@ -40,4 +40,8 @@ jobs:
             git add contests.json
             git commit -m "new contests added"
             git push
+            curl -X POST https://api.github.com/repos/geekypandey/cf_tracker/dispatches \
+            -H 'Accept: application/vnd.github.v3+json' \
+            -u ${{ secrets.ACCESS_TOKEN }} \
+            --data '{"event_type": "deploy", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}'
           fi

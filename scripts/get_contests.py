@@ -57,7 +57,12 @@ def strip_x(x: str):
 def get_problems(contest):
     idx = contest['id']
     url = f'https://codeforces.com/contest/{idx}'
-    df = pd.read_html(url)[1]
+    headers = {
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36",
+      "X-Requested-With": "XMLHttpRequest"
+    }
+    response = requests.get(url, headers=headers)
+    df = pd.read_html(response.text)[1]
     if 'Name' not in df.columns:
         raise BlacklistError(f'{idx} is blacklisted')
     df.dropna(axis=1, how='all', inplace=True)

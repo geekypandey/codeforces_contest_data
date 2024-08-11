@@ -4,7 +4,7 @@ chardet==4.0.0
 Deprecated==1.2.12
 idna==2.10
 lxml==4.6.3
-numpy==1.21.0
+numpy==2.0.1
 pandas==1.2.5
 pycparser==2.20
 PyGithub==1.55

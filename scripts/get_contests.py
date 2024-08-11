@@ -7,10 +7,15 @@ from pathlib import Path
 import requests
 import pandas as pd
 import numpy as np
+from zenrows import ZenRowsClient
+
+
+zenRowsClient = ZenRowsClient(os.environ.get('ZEN_ROWS_APIKEY'))
 
 
 class BlacklistError(Exception):
     pass
+
 
 def get_all_contests():
     """Fetch all the contests using codeforces api"""
@@ -58,11 +63,7 @@ def strip_x(x: str):
 def get_problems(contest):
     idx = contest['id']
     url = f'https://codeforces.com/contest/{idx}'
-    headers = {
-      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36",
-      "X-Requested-With": "XMLHttpRequest"
-    }
-    response = requests.get(url, headers=headers)
+    response = zenRowsClient.get(url)
     df = pd.read_html(response.text)[1]
     if 'Name' not in df.columns:
         raise BlacklistError(f'{idx} is blacklisted')

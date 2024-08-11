@@ -64,6 +64,8 @@ def get_problems(contest):
     idx = contest['id']
     url = f'https://codeforces.com/contest/{idx}'
     response = zenRowsClient.get(url)
+    if response.status_code != 200:
+        raise RuntimeError(f"Couldn't fetch problems for contest id: {idx}")
     df = pd.read_html(response.text)[1]
     if 'Name' not in df.columns:
         raise BlacklistError(f'{idx} is blacklisted')

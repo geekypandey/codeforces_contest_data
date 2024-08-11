@@ -2,6 +2,7 @@ import os
 import json
 import time
 import itertools
+from pathlib import Path
 
 import requests
 import pandas as pd
@@ -99,6 +100,7 @@ def process_contests(contests):
 
 if __name__ == "__main__":
     FILENAME = "contests.json"
+    CONTEST_FILE = os.path.join(Path(__file__).parent.parent.absolute(), FILENAME)
 
     # get all contests
     contests = get_all_contests()
@@ -109,8 +111,8 @@ if __name__ == "__main__":
     # remove processed contests
     processed_ids = {}
     blacklisted = {}
-    if os.path.exists(FILENAME):
-        with open(FILENAME) as f:
+    if os.path.exists(CONTEST_FILE):
+        with open(CONTEST_FILE) as f:
             result = json.load(f)
         processed_contests = result.get('contests', [])
         processed_ids = {contest['contestId'] for contest in processed_contests}
@@ -141,5 +143,5 @@ if __name__ == "__main__":
 
     json_data = {"contests": contests, "blacklisted": blacklisted_ids}
 
-    with open(FILENAME, "w") as f:
+    with open(CONTEST_FILE, "w") as f:
         json.dump(json_data, f)

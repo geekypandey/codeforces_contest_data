@@ -10,6 +10,9 @@ import numpy as np
 from zenrows import ZenRowsClient
 
 
+if 'ZEN_ROWS_APIKEY' not in os.environ.keys():
+    raise RuntimeError('Cannot find the API key for ZenRows')
+
 zenRowsClient = ZenRowsClient(os.environ.get('ZEN_ROWS_APIKEY'))
 
 

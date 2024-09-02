@@ -81,5 +81,8 @@ if __name__ == "__main__":
 
     current_datetime_utc = datetime.now(timezone.utc)
 
+    with open(CONTEST_FILE) as f:
+        saved_contest_data = json.load(f)
+    print(f"Saving the contests data to the file, Total Contests: {len(contests)}, Previous total contests: {len(saved_contest_data['contests'])}")
     with open(CONTEST_FILE, 'w') as f:
         json.dump({'contests': contests, 'last_updated': current_datetime_utc.isoformat()}, f)

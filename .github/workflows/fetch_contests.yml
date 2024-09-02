@@ -45,5 +45,3 @@ jobs:
             -u ${{ secrets.ACCESS_TOKEN }} \
             --data '{"event_type": "deploy", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}'
           fi
-        env:
-          ZEN_ROWS_APIKEY: ${{ secrets.ZEN_ROWS_APIKEY }}

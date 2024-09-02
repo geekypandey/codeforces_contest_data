@@ -32,8 +32,13 @@ def get_all_problems():
     if res["status"] != "OK":
         raise RuntimeError(f"Response from codeforces, status: {res['status']}")
     return res['result']
-    # problems = res['result']['problems']
-    # problemsStat = res['result']['problemStatistics']
+
+
+def get_new_added_contests(previous, current):
+    previous_contests_id = set(contest['id'] for contest in previous)
+    current_contests_id = set(contest['id'] for contest in current)
+
+    return current_contests_id - previous_contests_id
 
 
 def get_contest_division(contest):
@@ -83,6 +88,13 @@ if __name__ == "__main__":
 
     with open(CONTEST_FILE) as f:
         saved_contest_data = json.load(f)
+
+    new_contests_added = get_new_added_contests(saved_contest_data['contests'], contests)
+
     print(f"Saving the contests data to the file, Total Contests: {len(contests)}, Previous total contests: {len(saved_contest_data['contests'])}")
+    if new_contests_added:
+        print(f"New contests added: {','.join(str(contest_id) for contest_id in new_contests_added)}")
+    else:
+        print(f"No new contests added.")
     with open(CONTEST_FILE, 'w') as f:
         json.dump({'contests': contests, 'last_updated': current_datetime_utc.isoformat()}, f)

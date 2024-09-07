@@ -191,6 +191,7 @@ if __name__ == "__main__":
         print(f"New contests added: {','.join(str(contest_id) for contest_id in new_contests_id_added)}")
     else:
         print("No new contests added.")
+        exit(1)
 
     with open(CONTEST_FILE, 'w') as f:
         json.dump({

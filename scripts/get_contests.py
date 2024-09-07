@@ -11,9 +11,10 @@ import yaml
 import pandas as pd
 import numpy as np
 
-response = None
 
 CONFIG_FILE = os.path.join(Path(__file__).parent.absolute(), 'configuration.yml')
+FILENAME = "contests.json"
+CONTEST_FILE = os.path.join(Path(__file__).parent.parent.absolute(), FILENAME)
 
 with open(CONFIG_FILE) as f:
     config = yaml.safe_load(f)
@@ -102,6 +103,18 @@ def get_all_contests():
     return res["result"]
 
 
+def add_solved_count_to_problems(problems):
+    # add solvedCount to problem for each problem
+    problemStats = dict()
+    for pStat in problems['problemStatistics']:
+        problemStats[f"{pStat['contestId']}/{pStat['index']}"] = pStat['solvedCount']
+
+    for problem in problems['problems']:
+        problem['solvedCount'] = problemStats.get(f"{problem['contestId']}/{problem['index']}", None)
+    problems = problems['problems']
+    return problems
+
+
 def get_all_problems():
     """Fetch all the contests using codeforces api"""
     url = "https://codeforces.com/api/problemset.problems"
@@ -111,7 +124,8 @@ def get_all_problems():
     res = res.json()
     if res["status"] != "OK":
         raise RuntimeError(f"Response from codeforces, status: {res['status']}")
-    return res['result']
+    problems = add_solved_count_to_problems(res['result'])
+    return problems
 
 
 def get_new_added_contests_id(previous, current):
@@ -136,22 +150,24 @@ def get_contest_division(contest):
     return div
 
 
+def add_division_to_contests(contests):
+    for contest in contests:
+        contest['div'] = get_contest_division(contest)
+
+
+def get_previously_saved_contests():
+    with open(CONTEST_FILE) as f:
+        data = json.load(f)
+    return data['contests']
+
+
 if __name__ == "__main__":
-    FILENAME = "contests.json"
-    CONTEST_FILE = os.path.join(Path(__file__).parent.parent.absolute(), FILENAME)
 
-    # get all contests
+    current_datetime_utc = datetime.now(timezone.utc)
     contests = get_all_contests()
+    add_division_to_contests(contests)
+
     problems = get_all_problems()
-
-    # add solvedCount to problem for each problem
-    problemStats = dict()
-    for pStat in problems['problemStatistics']:
-        problemStats[f"{pStat['contestId']}/{pStat['index']}"] = pStat['solvedCount']
-
-    for problem in problems['problems']:
-        problem['solvedCount'] = problemStats.get(f"{problem['contestId']}/{problem['index']}", None)
-    problems = problems['problems']
 
     # add problems list to each contest
     for contest in contests:
@@ -160,30 +176,25 @@ if __name__ == "__main__":
                 contest['problems'] = contest.get('problems') or []
                 contest['problems'].append(problem)
 
-    # add division for each contest
-    for contest in contests:
-        contest['div'] = get_contest_division(contest)
 
-    current_datetime_utc = datetime.now(timezone.utc)
+    previously_saved_contests = get_previously_saved_contests()
 
-    with open(CONTEST_FILE) as f:
-        saved_contest_data = json.load(f)
-
-    new_contests_id_added = get_new_added_contests_id(saved_contest_data['contests'], contests)
+    new_contests_id_added = get_new_added_contests_id(previously_saved_contests, contests)
 
     new_contests = [contest for contest in contests if contest['id'] in new_contests_id_added]
     print(f'Adding {len(new_contests_id_added)} contests')
     new_contests = verify_problems_and_add_if_absent(new_contests)
     new_contests_id_added = [contest['id'] for contest in new_contests]
 
-    print(f"Saving the contests data to the file, Total Contests: {len(contests)}, Previous total contests: {len(saved_contest_data['contests'])}")
+    print(f"Saving the contests data to the file, Total Contests: {len(contests)}, Previous total contests: {len(previously_saved_contests)}")
     if new_contests_id_added:
         print(f"New contests added: {','.join(str(contest_id) for contest_id in new_contests_id_added)}")
     else:
-        print(f"No new contests added.")
+        print("No new contests added.")
+
     with open(CONTEST_FILE, 'w') as f:
         json.dump({
-            'contests': [*saved_contest_data['contests'], *new_contests],
+            'contests': [*previously_saved_contests, *new_contests],
             'last_updated': current_datetime_utc.isoformat(),
             }, f)
 

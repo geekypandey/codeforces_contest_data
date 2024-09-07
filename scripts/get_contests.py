@@ -1,11 +1,93 @@
+import time
 import os
 import json
+import itertools
+import subprocess
 from pathlib import Path
 from datetime import datetime, timezone
 
 import requests
+import yaml
+import pandas as pd
+import numpy as np
 
 response = None
+
+CONFIG_FILE = os.path.join(Path(__file__).parent.absolute(), 'configuration.yml')
+
+with open(CONFIG_FILE) as f:
+    config = yaml.safe_load(f)
+
+
+def replace_nan(x):
+    if isinstance(x, str):
+        return x
+    if np.isnan(x):
+        return None
+    return x
+
+
+def strip_x(x: str):
+    if not isinstance(x, str):
+        return x
+    return x.strip('x').strip()
+
+
+def get_problems(contest_id):
+    p = subprocess.Popen(['node', './fetch_page.js', str(contest_id)], stdout=subprocess.PIPE)
+    out = p.stdout.read()
+
+    df = pd.read_html(out)[1]
+    if 'Name' not in df.columns:
+        print('Some ERROR')
+    df.dropna(axis=1, how='all', inplace=True)
+    columns = ['idx', 'name', 'solved_count']
+    df.columns = [columns[i] for i in range(len(df.columns))]
+    indices = [str(val) for val in df['idx'].values]
+    solved_count = []
+    names = [name.split('standard')[0].strip() for name in df['name']]
+    if 'solved_count' in df.columns:
+        df['solved_count'] = df['solved_count'].apply(strip_x)
+        solved_count = df['solved_count'].apply(replace_nan).values
+    problems = [{"index": idx, "solvedCount": count, "name": name} for idx, count, name in itertools.zip_longest(indices, solved_count, names)]
+    return problems
+
+
+def verify_problems_and_add_if_absent(contests):
+    processed_contests = []
+    for contest in contests:
+        if contest['id'] in config.get('skip-ids', []):
+            continue
+        try:
+            if contest['phase'] != 'FINISHED':
+                processed_contests.append(contest)
+                continue
+            print(f"Verifying for contest {contest['id']}")
+            problems = get_problems(contest['id'])
+            time.sleep(10)
+            if len(problems) <= len(contest.get('problems', [])):
+                processed_contests.append(contest)
+                continue
+            else:
+                print(f'Adding problems for contest: {contest}')
+            # add problems
+            present_index = set(problem['index'] for problem in contest.get('problems', []))
+            for problem in problems:
+                if problem['index'] not in present_index:
+                    contest.get('problems', []).append({
+                        'contestId': contest['id'],
+                        'index': problem['index'],
+                        'name': problem['name'],
+                        'tags': [],
+                        'solvedCount': problem['solvedCount'],
+                    })
+            processed_contests.append(contest)
+        except Exception as e:
+            print(f'Exception occured: {e}')
+            config.get('skip-ids', []).append(contest['id'])
+            processed_contests.append(contest)
+            continue
+    return processed_contests
 
 
 def get_all_contests():
@@ -32,7 +114,7 @@ def get_all_problems():
     return res['result']
 
 
-def get_new_added_contests(previous, current):
+def get_new_added_contests_id(previous, current):
     previous_contests_id = set(contest['id'] for contest in previous)
     current_contests_id = set(contest['id'] for contest in current)
 
@@ -87,12 +169,23 @@ if __name__ == "__main__":
     with open(CONTEST_FILE) as f:
         saved_contest_data = json.load(f)
 
-    new_contests_added = get_new_added_contests(saved_contest_data['contests'], contests)
+    new_contests_id_added = get_new_added_contests_id(saved_contest_data['contests'], contests)
+
+    new_contests = [contest for contest in contests if contest['id'] in new_contests_id_added]
+    print(f'Adding {len(new_contests_id_added)} contests')
+    new_contests = verify_problems_and_add_if_absent(new_contests)
+    new_contests_id_added = [contest['id'] for contest in new_contests]
 
     print(f"Saving the contests data to the file, Total Contests: {len(contests)}, Previous total contests: {len(saved_contest_data['contests'])}")
-    if new_contests_added:
-        print(f"New contests added: {','.join(str(contest_id) for contest_id in new_contests_added)}")
+    if new_contests_id_added:
+        print(f"New contests added: {','.join(str(contest_id) for contest_id in new_contests_id_added)}")
     else:
         print(f"No new contests added.")
     with open(CONTEST_FILE, 'w') as f:
-        json.dump({'contests': contests, 'last_updated': current_datetime_utc.isoformat()}, f)
+        json.dump({
+            'contests': [*saved_contest_data['contests'], *new_contests],
+            'last_updated': current_datetime_utc.isoformat(),
+            }, f)
+
+    with open(CONFIG_FILE, 'w') as f:
+        yaml.dump(config, f)

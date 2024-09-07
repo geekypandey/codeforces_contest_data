@@ -60,7 +60,7 @@ def verify_problems_and_add_if_absent(contests):
         if contest['id'] in config.get('skip-ids', []):
             continue
         try:
-            if contest['phase'] != 'FINISHED':
+            if contest['phase'] == 'BEFORE':
                 processed_contests.append(contest)
                 continue
             print(f"Verifying for contest {contest['id']}")

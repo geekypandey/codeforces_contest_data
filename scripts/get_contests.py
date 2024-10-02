@@ -15,6 +15,7 @@ import numpy as np
 CONFIG_FILE = os.path.join(Path(__file__).parent.absolute(), 'configuration.yml')
 FILENAME = "contests.json"
 CONTEST_FILE = os.path.join(Path(__file__).parent.parent.absolute(), FILENAME)
+FETCH_PAGE_FILE_PATH = os.path.join(Path(__file__).parent.absolute(), 'fetch_page.js')
 
 with open(CONFIG_FILE) as f:
     config = yaml.safe_load(f)
@@ -35,7 +36,7 @@ def strip_x(x: str):
 
 
 def get_problems(contest_id):
-    p = subprocess.Popen(['node', './fetch_page.js', str(contest_id)], stdout=subprocess.PIPE)
+    p = subprocess.Popen(['node', FETCH_PAGE_FILE_PATH, str(contest_id)], stdout=subprocess.PIPE)
     out = p.stdout.read()
 
     df = pd.read_html(out)[1]
@@ -66,22 +67,24 @@ def verify_problems_and_add_if_absent(contests):
             print(f"Verifying for contest {contest['id']}")
             problems = get_problems(contest['id'])
             time.sleep(10)
-            if len(problems) <= len(contest.get('problems', [])):
+            current_contest_problems = contest.get('problems', [])
+            if len(problems) <= len(current_contest_problems):
                 processed_contests.append(contest)
                 continue
             else:
                 print(f'Adding problems for contest: {contest}')
             # add problems
-            present_index = set(problem['index'] for problem in contest.get('problems', []))
+            present_index = set(problem['index'] for problem in current_contest_problems)
             for problem in problems:
                 if problem['index'] not in present_index:
-                    contest.get('problems', []).append({
+                    current_contest_problems.append({
                         'contestId': contest['id'],
                         'index': problem['index'],
                         'name': problem['name'],
                         'tags': [],
                         'solvedCount': problem['solvedCount'],
                     })
+            contest['problems'] = current_contest_problems
             processed_contests.append(contest)
         except Exception as e:
             print(f'Exception occured: {e}')

@@ -158,7 +158,8 @@ def add_division_to_contests(contests):
 def get_previously_saved_contests():
     with open(CONTEST_FILE) as f:
         data = json.load(f)
-    return data['contests']
+    contests = [contest for contest in data['contests'] if contest['phase'] != 'BEFORE']
+    return contests
 
 
 if __name__ == "__main__":
@@ -177,8 +178,10 @@ if __name__ == "__main__":
                 contest['problems'].append(problem)
 
 
+    # get only contests which are completed
     previously_saved_contests = get_previously_saved_contests()
 
+    # get new contests added and also the contests which are not yet started
     new_contests_id_added = get_new_added_contests_id(previously_saved_contests, contests)
 
     new_contests = [contest for contest in contests if contest['id'] in new_contests_id_added]

@@ -167,7 +167,6 @@ def get_previously_saved_contests():
 
 if __name__ == "__main__":
 
-    current_datetime_utc = datetime.now(timezone.utc)
     contests = get_all_contests()
     add_division_to_contests(contests)
 
@@ -202,8 +201,8 @@ if __name__ == "__main__":
     with open(CONTEST_FILE, 'w') as f:
         json.dump({
             'contests': [*previously_saved_contests, *new_contests],
-            'last_updated': current_datetime_utc.isoformat(),
-            }, f)
+            'last_updated': datetime.now(timezone.utc).isoformat(),
+            }, f, indent=4)
 
     with open(CONFIG_FILE, 'w') as f:
         yaml.dump(config, f)

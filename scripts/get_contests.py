@@ -11,6 +11,7 @@ import yaml
 import pandas as pd
 import numpy as np
 
+import codeforces
 
 CONFIG_FILE = os.path.join(Path(__file__).parent.absolute(), 'configuration.yml')
 FILENAME = "contests.json"
@@ -94,43 +95,6 @@ def verify_problems_and_add_if_absent(contests):
     return processed_contests
 
 
-def get_all_contests():
-    """Fetch all the contests using codeforces api"""
-    url = "https://codeforces.com/api/contest.list"
-    res = requests.get(url)
-    if res.status_code != 200:
-        raise RuntimeError(f"Request status code : {res.status_code}. Try again!")
-    res = res.json()
-    if res["status"] != "OK":
-        raise RuntimeError(f"Response from codeforces, status: {res['status']}")
-    return res["result"]
-
-
-def add_solved_count_to_problems(problems):
-    # add solvedCount to problem for each problem
-    problemStats = dict()
-    for pStat in problems['problemStatistics']:
-        problemStats[f"{pStat['contestId']}/{pStat['index']}"] = pStat['solvedCount']
-
-    for problem in problems['problems']:
-        problem['solvedCount'] = problemStats.get(f"{problem['contestId']}/{problem['index']}", None)
-    problems = problems['problems']
-    return problems
-
-
-def get_all_problems():
-    """Fetch all the contests using codeforces api"""
-    url = "https://codeforces.com/api/problemset.problems"
-    res = requests.get(url)
-    if res.status_code != 200:
-        raise RuntimeError(f"Request status code : {res.status_code}. Try again!")
-    res = res.json()
-    if res["status"] != "OK":
-        raise RuntimeError(f"Response from codeforces, status: {res['status']}")
-    problems = add_solved_count_to_problems(res['result'])
-    return problems
-
-
 def get_new_added_contests_id(previous, current):
     previous_contests_id = set(contest['id'] for contest in previous)
     current_contests_id = set(contest['id'] for contest in current)
@@ -167,10 +131,10 @@ def get_previously_saved_contests():
 
 if __name__ == "__main__":
 
-    contests = get_all_contests()
+    contests = codeforces.get_contests()
     add_division_to_contests(contests)
 
-    problems = get_all_problems()
+    problems = codeforces.get_problems()
 
     # add problems list to each contest
     for contest in contests:

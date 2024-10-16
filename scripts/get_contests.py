@@ -17,6 +17,7 @@ CONFIG_FILE = os.path.join(Path(__file__).parent.absolute(), 'configuration.yml'
 FILENAME = "contests.json"
 CONTEST_FILE = os.path.join(Path(__file__).parent.parent.absolute(), FILENAME)
 FETCH_PAGE_FILE_PATH = os.path.join(Path(__file__).parent.absolute(), 'fetch_page.js')
+FINISHED = 'FINISHED'
 
 with open(CONFIG_FILE) as f:
     config = yaml.safe_load(f)
@@ -62,9 +63,6 @@ def verify_problems_and_add_if_absent(contests):
         if contest['id'] in config.get('skip-ids', []):
             continue
         try:
-            if contest['phase'] == 'BEFORE':
-                processed_contests.append(contest)
-                continue
             print(f"Verifying for contest {contest['id']}")
             problems = get_problems(contest['id'])
             time.sleep(10)
@@ -125,13 +123,15 @@ def add_division_to_contests(contests):
 def get_saved_contests():
     with open(CONTEST_FILE) as f:
         data = json.load(f)
-    contests = [contest for contest in data['contests'] if contest['phase'] != 'BEFORE']
+    contests = [contest for contest in data['contests'] if contest['phase'] == FINISHED]
     return contests
 
 
 if __name__ == "__main__":
 
     contests = codeforces.get_contests()
+    not_finished_contests = [contest for contest in contests if contest['phase'] != FINISHED]
+    contests = [contest for contest in contests if contest['phase'] == FINISHED]
     add_division_to_contests(contests)
 
     problems = codeforces.get_problems()
@@ -164,7 +164,7 @@ if __name__ == "__main__":
 
     with open(CONTEST_FILE, 'w') as f:
         json.dump({
-            'contests': [*saved_contests, *new_contests],
+            'contests': [*saved_contests, *new_contests, *not_finished_contests],
             'last_updated': datetime.now(timezone.utc).isoformat(),
             }, f, indent=4)
 

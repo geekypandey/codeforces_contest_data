@@ -122,7 +122,7 @@ def add_division_to_contests(contests):
         contest['div'] = get_contest_division(contest)
 
 
-def get_previously_saved_contests():
+def get_saved_contests():
     with open(CONTEST_FILE) as f:
         data = json.load(f)
     contests = [contest for contest in data['contests'] if contest['phase'] != 'BEFORE']
@@ -145,17 +145,17 @@ if __name__ == "__main__":
 
 
     # get only contests which are completed
-    previously_saved_contests = get_previously_saved_contests()
+    saved_contests = get_saved_contests()
 
     # get new contests added and also the contests which are not yet started
-    new_contests_id_added = get_new_added_contests_id(previously_saved_contests, contests)
+    new_contests_id_added = get_new_added_contests_id(saved_contests, contests)
 
     new_contests = [contest for contest in contests if contest['id'] in new_contests_id_added]
     print(f'Adding {len(new_contests_id_added)} contests')
     new_contests = verify_problems_and_add_if_absent(new_contests)
     new_contests_id_added = [contest['id'] for contest in new_contests]
 
-    print(f"Saving the contests data to the file, Total Contests: {len(contests)}, Previous total contests: {len(previously_saved_contests)}")
+    print(f"Saving the contests data to the file, Total Contests: {len(contests)}, Previous total contests: {len(saved_contests)}")
     if new_contests_id_added:
         print(f"New contests added: {','.join(str(contest_id) for contest_id in new_contests_id_added)}")
     else:
@@ -164,7 +164,7 @@ if __name__ == "__main__":
 
     with open(CONTEST_FILE, 'w') as f:
         json.dump({
-            'contests': [*previously_saved_contests, *new_contests],
+            'contests': [*saved_contests, *new_contests],
             'last_updated': datetime.now(timezone.utc).isoformat(),
             }, f, indent=4)
 

@@ -143,6 +143,12 @@ if __name__ == "__main__":
                 contest['problems'] = contest.get('problems') or []
                 contest['problems'].append(problem)
 
+    # sort the problems based on index
+    for contest in contests:
+        if contest.get('problems') is None:
+            continue
+        contest['problems'].sort(key=lambda p: p['index'])
+
 
     # get only contests which are completed
     saved_contests = get_saved_contests()

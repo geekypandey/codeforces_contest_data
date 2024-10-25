@@ -18,6 +18,16 @@ FILENAME = "contests.json"
 CONTEST_FILE = os.path.join(Path(__file__).parent.parent.absolute(), FILENAME)
 FETCH_PAGE_FILE_PATH = os.path.join(Path(__file__).parent.absolute(), 'fetch_page.js')
 FINISHED = 'FINISHED'
+EMPTY_STRING = ''
+DIVISIONS = {
+        'Div. 1': '1',
+        'Div. 2': '2',
+        'Div. 1 + Div. 2': '1&2',
+        'Div. 3': '3',
+        'Div. 4': '4',
+        'Educational': 'E',
+        'Kotlin': 'kotlin'
+}
 
 with open(CONFIG_FILE) as f:
     config = yaml.safe_load(f)
@@ -101,18 +111,10 @@ def get_new_added_contests_id(previous, current):
 
 
 def get_contest_division(contest):
-    div = ""
-    if contest["name"].find("Educational") >= 0:
-        div = "E"
-    elif contest["name"].find("Div. 1") >= 0:
-        div = "1"
-    elif contest["name"].find("Div. 2") >= 0:
-        div = "2"
-    elif contest["name"].find("Div. 3") >= 0:
-        div = "3"
-    elif contest["name"].find("Div. 4") >= 0:
-        div = "4"
-    return div
+    for (key, value) in DIVISIONS.items():
+        if contest['name'].find(key) >= 0:
+            return value
+    return EMPTY_STRING
 
 
 def add_division_to_contests(contests):

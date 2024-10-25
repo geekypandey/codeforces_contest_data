@@ -26,7 +26,11 @@ DIVISIONS = {
         'Div. 3': '3',
         'Div. 4': '4',
         'Educational': 'E',
-        'Kotlin': 'kotlin'
+        'Kotlin': 'kotlin',
+        'CodeTON': 'codeton',
+        'Global': 'global',
+        'VK CUP': 'vk-cup',
+        'April Fools': 'april-fools',
 }
 
 with open(CONFIG_FILE) as f:

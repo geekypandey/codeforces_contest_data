@@ -15,7 +15,7 @@ divisions = {
         'Kotlin': 'kotlin',
         'CodeTON': 'codeton',
         'Global': 'global',
-        'VK CUP': 'vk-cup',
+        'VK Cup': 'vk-cup',
         'April Fools': 'april-fools',
 }
 

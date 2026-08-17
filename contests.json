@@ -190202,24 +190202,118 @@
         },
         {
             "id": 2257,
-            "name": "Codeforces Round (Div. 2)",
+            "name": "Codeforces Round 1117 (Div. 2)",
             "type": "CF",
-            "phase": "BEFORE",
+            "phase": "FINISHED",
             "frozen": false,
             "durationSeconds": 7200,
             "startTimeSeconds": 1786977300,
-            "relativeTimeSeconds": -669573
+            "relativeTimeSeconds": 21293,
+            "div": "2",
+            "problems": [
+                {
+                    "contestId": 2257,
+                    "index": "A",
+                    "name": "Creating Abbreviations",
+                    "type": "PROGRAMMING",
+                    "points": 500.0,
+                    "tags": [
+                        "brute force",
+                        "strings"
+                    ],
+                    "solvedCount": 13256
+                },
+                {
+                    "contestId": 2257,
+                    "index": "B",
+                    "name": "Gigantomachy",
+                    "type": "PROGRAMMING",
+                    "points": 750.0,
+                    "tags": [
+                        "math"
+                    ],
+                    "solvedCount": 11831
+                },
+                {
+                    "contestId": 2257,
+                    "index": "C",
+                    "name": "Spying on the Beaver",
+                    "type": "PROGRAMMING",
+                    "points": 1250.0,
+                    "tags": [
+                        "dfs and similar",
+                        "graphs",
+                        "trees"
+                    ],
+                    "solvedCount": 7129
+                },
+                {
+                    "contestId": 2257,
+                    "index": "D",
+                    "name": "Bermuda Rectangle",
+                    "type": "PROGRAMMING",
+                    "points": 1750.0,
+                    "tags": [
+                        "binary search",
+                        "math",
+                        "number theory"
+                    ],
+                    "solvedCount": 3405
+                },
+                {
+                    "contestId": 2257,
+                    "index": "E",
+                    "name": "Busy Beaver",
+                    "type": "PROGRAMMING",
+                    "points": 2250.0,
+                    "tags": [
+                        "brute force",
+                        "divide and conquer",
+                        "dp",
+                        "greedy",
+                        "implementation",
+                        "sortings"
+                    ],
+                    "solvedCount": 839
+                },
+                {
+                    "contestId": 2257,
+                    "index": "F1",
+                    "name": "Beaver's Jumping Track (Easy Version)",
+                    "type": "PROGRAMMING",
+                    "points": 2750.0,
+                    "tags": [
+                        "data structures",
+                        "dp",
+                        "matrices"
+                    ],
+                    "solvedCount": 207
+                },
+                {
+                    "contestId": 2257,
+                    "index": "F2",
+                    "name": "Beaver's Jumping Track (Hard Version)",
+                    "type": "PROGRAMMING",
+                    "points": 1000.0,
+                    "tags": [
+                        "data structures",
+                        "dp",
+                        "matrices"
+                    ],
+                    "solvedCount": 50
+                }
+            ]
         },
         {
             "id": 2251,
             "name": "ICPC 2026 Online Challenge 1 powered by Huawei",
             "type": "IOI",
-            "phase": "BEFORE",
+            "phase": "CODING",
             "frozen": false,
             "durationSeconds": 1209600,
             "startTimeSeconds": 1786705200,
-            "relativeTimeSeconds": -397475
+            "relativeTimeSeconds": 293392
         }
     ],
-    "last_updated": "2026-08-09T20:36:15.341090+00:00"
+    "last_updated": "2026-08-17T20:30:20.629171+00:00"
 }

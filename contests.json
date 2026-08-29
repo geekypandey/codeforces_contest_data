@@ -190308,12 +190308,53 @@
             "id": 2251,
             "name": "ICPC 2026 Online Challenge 1 powered by Huawei",
             "type": "IOI",
-            "phase": "CODING",
+            "phase": "FINISHED",
             "frozen": false,
             "durationSeconds": 1209600,
             "startTimeSeconds": 1786705200,
-            "relativeTimeSeconds": 293392
+            "relativeTimeSeconds": 1266343,
+            "div": ""
+        },
+        {
+            "id": 2261,
+            "name": "Codeforces Round (Div. 1 + Div. 2)",
+            "type": "CF",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 10800,
+            "startTimeSeconds": 1792247700,
+            "relativeTimeSeconds": -4276155
+        },
+        {
+            "id": 2260,
+            "name": "Educational Codeforces Round 194 (Rated for Div. 2)",
+            "type": "ICPC",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 7200,
+            "startTimeSeconds": 1788878100,
+            "relativeTimeSeconds": -906555
+        },
+        {
+            "id": 2259,
+            "name": "Codeforces Round (Div. 3)",
+            "type": "ICPC",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 8100,
+            "startTimeSeconds": 1788618900,
+            "relativeTimeSeconds": -647355
+        },
+        {
+            "id": 2258,
+            "name": "Codeforces Round 1118 (Div. 2)",
+            "type": "CF",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 7200,
+            "startTimeSeconds": 1788014100,
+            "relativeTimeSeconds": -42556
         }
     ],
-    "last_updated": "2026-08-17T20:30:20.629171+00:00"
+    "last_updated": "2026-08-29T02:45:51.461438+00:00"
 }

@@ -190316,6 +190316,106 @@
             "div": ""
         },
         {
+            "id": 2258,
+            "name": "Codeforces Round 1118 (Div. 2)",
+            "type": "CF",
+            "phase": "FINISHED",
+            "frozen": false,
+            "durationSeconds": 7200,
+            "startTimeSeconds": 1788014100,
+            "relativeTimeSeconds": 28475,
+            "div": "2",
+            "problems": [
+                {
+                    "contestId": 2258,
+                    "index": "A",
+                    "name": "Odd Eraser",
+                    "type": "PROGRAMMING",
+                    "points": 500.0,
+                    "tags": [
+                        "math"
+                    ],
+                    "solvedCount": 12638
+                },
+                {
+                    "contestId": 2258,
+                    "index": "B1",
+                    "name": "Carrot Chopdown (Easy Version)",
+                    "type": "PROGRAMMING",
+                    "points": 750.0,
+                    "tags": [
+                        "brute force",
+                        "math"
+                    ],
+                    "solvedCount": 10243
+                },
+                {
+                    "contestId": 2258,
+                    "index": "B2",
+                    "name": "Carrot Chopdown (Hard Version)",
+                    "type": "PROGRAMMING",
+                    "points": 1000.0,
+                    "tags": [
+                        "brute force",
+                        "implementation",
+                        "math"
+                    ],
+                    "solvedCount": 2862
+                },
+                {
+                    "contestId": 2258,
+                    "index": "C",
+                    "name": "Far Cities",
+                    "type": "PROGRAMMING",
+                    "points": 1250.0,
+                    "tags": [
+                        "interactive",
+                        "trees"
+                    ],
+                    "solvedCount": 2946
+                },
+                {
+                    "contestId": 2258,
+                    "index": "D",
+                    "name": "Magic Tiles",
+                    "type": "PROGRAMMING",
+                    "points": 2000.0,
+                    "tags": [
+                        "dp",
+                        "implementation"
+                    ],
+                    "solvedCount": 171
+                },
+                {
+                    "contestId": 2258,
+                    "index": "E",
+                    "name": "DivMEX",
+                    "type": "PROGRAMMING",
+                    "points": 2250.0,
+                    "tags": [
+                        "data structures",
+                        "math",
+                        "number theory"
+                    ],
+                    "solvedCount": 275
+                },
+                {
+                    "contestId": 2258,
+                    "index": "F",
+                    "name": "Plus Minus Tree",
+                    "type": "PROGRAMMING",
+                    "points": 3000.0,
+                    "tags": [
+                        "dfs and similar",
+                        "dp",
+                        "graphs",
+                        "trees"
+                    ],
+                    "solvedCount": 40
+                }
+            ]
+        },
+        {
             "id": 2261,
             "name": "Codeforces Round (Div. 1 + Div. 2)",
             "type": "CF",
@@ -190323,7 +190423,7 @@
             "frozen": false,
             "durationSeconds": 10800,
             "startTimeSeconds": 1792247700,
-            "relativeTimeSeconds": -4276155
+            "relativeTimeSeconds": -4205125
         },
         {
             "id": 2260,
@@ -190333,7 +190433,7 @@
             "frozen": false,
             "durationSeconds": 7200,
             "startTimeSeconds": 1788878100,
-            "relativeTimeSeconds": -906555
+            "relativeTimeSeconds": -835525
         },
         {
             "id": 2259,
@@ -190343,18 +190443,8 @@
             "frozen": false,
             "durationSeconds": 8100,
             "startTimeSeconds": 1788618900,
-            "relativeTimeSeconds": -647355
-        },
-        {
-            "id": 2258,
-            "name": "Codeforces Round 1118 (Div. 2)",
-            "type": "CF",
-            "phase": "BEFORE",
-            "frozen": false,
-            "durationSeconds": 7200,
-            "startTimeSeconds": 1788014100,
-            "relativeTimeSeconds": -42556
+            "relativeTimeSeconds": -576325
         }
     ],
-    "last_updated": "2026-08-29T02:45:51.461438+00:00"
+    "last_updated": "2026-08-29T22:29:55.356773+00:00"
 }

@@ -190416,6 +190416,108 @@
             ]
         },
         {
+            "id": 2259,
+            "name": "Codeforces Round 1119 (Div. 3)",
+            "type": "ICPC",
+            "phase": "FINISHED",
+            "frozen": false,
+            "durationSeconds": 8100,
+            "startTimeSeconds": 1788619500,
+            "relativeTimeSeconds": 25994,
+            "div": "3",
+            "problems": [
+                {
+                    "contestId": 2259,
+                    "index": "A",
+                    "name": "Moo Language School",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "greedy"
+                    ],
+                    "solvedCount": 20345
+                },
+                {
+                    "contestId": 2259,
+                    "index": "B",
+                    "name": "Minus Two",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "math",
+                        "number theory"
+                    ],
+                    "solvedCount": 17385
+                },
+                {
+                    "contestId": 2259,
+                    "index": "C",
+                    "name": "101",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "greedy"
+                    ],
+                    "solvedCount": 12527
+                },
+                {
+                    "contestId": 2259,
+                    "index": "D",
+                    "name": "MEX Multiset",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "constructive algorithms",
+                        "greedy"
+                    ],
+                    "solvedCount": 8754
+                },
+                {
+                    "contestId": 2259,
+                    "index": "E",
+                    "name": "Treasure Map Destruction (Constructive Version)",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "2-sat",
+                        "constructive algorithms",
+                        "greedy"
+                    ],
+                    "solvedCount": 3555
+                },
+                {
+                    "contestId": 2259,
+                    "index": "F",
+                    "name": "Binary Bubble Sort Inversions",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "data structures",
+                        "two pointers"
+                    ],
+                    "solvedCount": 1576
+                },
+                {
+                    "contestId": 2259,
+                    "index": "G",
+                    "name": "Index Removal",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "binary search",
+                        "data structures",
+                        "math"
+                    ],
+                    "solvedCount": 1091
+                },
+                {
+                    "contestId": 2259,
+                    "index": "H",
+                    "name": "Treasure Map Destruction (Counting Version)",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "combinatorics",
+                        "dp",
+                        "math"
+                    ],
+                    "solvedCount": 406
+                }
+            ]
+        },
+        {
             "id": 2261,
             "name": "Codeforces Round (Div. 1 + Div. 2)",
             "type": "CF",
@@ -190423,7 +190525,37 @@
             "frozen": false,
             "durationSeconds": 10800,
             "startTimeSeconds": 1792247700,
-            "relativeTimeSeconds": -4205125
+            "relativeTimeSeconds": -3602206
+        },
+        {
+            "id": 2264,
+            "name": "Codeforces Round (Div. 2)",
+            "type": "CF",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 7200,
+            "startTimeSeconds": 1789319100,
+            "relativeTimeSeconds": -673606
+        },
+        {
+            "id": 2262,
+            "name": "Codeforces Round (Div. 1)",
+            "type": "CF",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 10800,
+            "startTimeSeconds": 1789223700,
+            "relativeTimeSeconds": -578206
+        },
+        {
+            "id": 2263,
+            "name": "Codeforces Round (Div. 2)",
+            "type": "CF",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 10800,
+            "startTimeSeconds": 1789223700,
+            "relativeTimeSeconds": -578206
         },
         {
             "id": 2260,
@@ -190433,18 +190565,8 @@
             "frozen": false,
             "durationSeconds": 7200,
             "startTimeSeconds": 1788878100,
-            "relativeTimeSeconds": -835525
-        },
-        {
-            "id": 2259,
-            "name": "Codeforces Round (Div. 3)",
-            "type": "ICPC",
-            "phase": "BEFORE",
-            "frozen": false,
-            "durationSeconds": 8100,
-            "startTimeSeconds": 1788618900,
-            "relativeTimeSeconds": -576325
+            "relativeTimeSeconds": -232607
         }
     ],
-    "last_updated": "2026-08-29T22:29:55.356773+00:00"
+    "last_updated": "2026-09-05T21:59:06.496146+00:00"
 }

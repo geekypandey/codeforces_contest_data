@@ -190518,6 +190518,101 @@
             ]
         },
         {
+            "id": 2260,
+            "name": "Educational Codeforces Round 194 (Rated for Div. 2)",
+            "type": "ICPC",
+            "phase": "FINISHED",
+            "frozen": false,
+            "durationSeconds": 7200,
+            "startTimeSeconds": 1788878100,
+            "relativeTimeSeconds": 28338,
+            "div": "2",
+            "problems": [
+                {
+                    "contestId": 2260,
+                    "index": "A",
+                    "name": "Monocarp's Contest",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "implementation"
+                    ],
+                    "solvedCount": 14861
+                },
+                {
+                    "contestId": 2260,
+                    "index": "B",
+                    "name": "Monocarp and Projects",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "math"
+                    ],
+                    "solvedCount": 11708
+                },
+                {
+                    "contestId": 2260,
+                    "index": "C",
+                    "name": "Maximize XOR, Minimize Operations",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "bitmasks",
+                        "greedy"
+                    ],
+                    "solvedCount": 6842
+                },
+                {
+                    "contestId": 2260,
+                    "index": "D",
+                    "name": "Signs of Prefix Sums",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "brute force",
+                        "constructive algorithms",
+                        "dfs and similar",
+                        "dp"
+                    ],
+                    "solvedCount": 2734
+                },
+                {
+                    "contestId": 2260,
+                    "index": "E",
+                    "name": "Cyclic Balance",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "constructive algorithms",
+                        "math"
+                    ],
+                    "solvedCount": 1010
+                },
+                {
+                    "contestId": 2260,
+                    "index": "F",
+                    "name": "Edge Three-Coloring",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "bitmasks",
+                        "brute force",
+                        "dfs and similar",
+                        "dsu",
+                        "graphs",
+                        "trees"
+                    ],
+                    "solvedCount": 256
+                },
+                {
+                    "contestId": 2260,
+                    "index": "G",
+                    "name": "Sortable Permutations",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "brute force",
+                        "combinatorics",
+                        "math"
+                    ],
+                    "solvedCount": 41
+                }
+            ]
+        },
+        {
             "id": 2261,
             "name": "Codeforces Round (Div. 1 + Div. 2)",
             "type": "CF",
@@ -190525,7 +190620,7 @@
             "frozen": false,
             "durationSeconds": 10800,
             "startTimeSeconds": 1792247700,
-            "relativeTimeSeconds": -3602206
+            "relativeTimeSeconds": -3341262
         },
         {
             "id": 2264,
@@ -190535,7 +190630,7 @@
             "frozen": false,
             "durationSeconds": 7200,
             "startTimeSeconds": 1789319100,
-            "relativeTimeSeconds": -673606
+            "relativeTimeSeconds": -412662
         },
         {
             "id": 2262,
@@ -190545,7 +190640,7 @@
             "frozen": false,
             "durationSeconds": 10800,
             "startTimeSeconds": 1789223700,
-            "relativeTimeSeconds": -578206
+            "relativeTimeSeconds": -317263
         },
         {
             "id": 2263,
@@ -190555,18 +190650,8 @@
             "frozen": false,
             "durationSeconds": 10800,
             "startTimeSeconds": 1789223700,
-            "relativeTimeSeconds": -578206
-        },
-        {
-            "id": 2260,
-            "name": "Educational Codeforces Round 194 (Rated for Div. 2)",
-            "type": "ICPC",
-            "phase": "BEFORE",
-            "frozen": false,
-            "durationSeconds": 7200,
-            "startTimeSeconds": 1788878100,
-            "relativeTimeSeconds": -232607
+            "relativeTimeSeconds": -317262
         }
     ],
-    "last_updated": "2026-09-05T21:59:06.496146+00:00"
+    "last_updated": "2026-09-08T22:28:03.492364+00:00"
 }

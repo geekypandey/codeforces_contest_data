@@ -190613,6 +190613,137 @@
             ]
         },
         {
+            "id": 2262,
+            "name": "Codeforces Round 1120 (Div. 1)",
+            "type": "CF",
+            "phase": "FINISHED",
+            "frozen": false,
+            "durationSeconds": 10800,
+            "startTimeSeconds": 1789223700,
+            "relativeTimeSeconds": 26803,
+            "div": "1",
+            "problems": [
+                {
+                    "contestId": 2262,
+                    "index": "A1",
+                    "name": "Floor of MEX (Easy Version)",
+                    "type": "PROGRAMMING",
+                    "points": 500.0,
+                    "tags": [
+                        "constructive algorithms",
+                        "greedy"
+                    ],
+                    "solvedCount": 6817
+                },
+                {
+                    "contestId": 2262,
+                    "index": "A2",
+                    "name": "Floor of MEX (Hard Version)",
+                    "type": "PROGRAMMING",
+                    "points": 1000.0,
+                    "tags": [
+                        "dp",
+                        "implementation"
+                    ],
+                    "solvedCount": 2012
+                },
+                {
+                    "contestId": 2262,
+                    "index": "B",
+                    "name": "Culling Game",
+                    "type": "PROGRAMMING",
+                    "points": 1750.0,
+                    "tags": [
+                        "binary search",
+                        "data structures",
+                        "two pointers"
+                    ],
+                    "solvedCount": 1183
+                },
+                {
+                    "contestId": 2262,
+                    "index": "C",
+                    "name": "Traveling the World",
+                    "type": "PROGRAMMING",
+                    "points": 1750.0,
+                    "tags": [
+                        "combinatorics",
+                        "graphs",
+                        "math"
+                    ],
+                    "solvedCount": 495
+                },
+                {
+                    "contestId": 2262,
+                    "index": "D",
+                    "name": "PLUSworld",
+                    "type": "PROGRAMMING",
+                    "points": 2500.0,
+                    "tags": [
+                        "constructive algorithms",
+                        "graphs"
+                    ],
+                    "solvedCount": 85
+                },
+                {
+                    "contestId": 2262,
+                    "index": "E",
+                    "name": "Paired Bracket Sequences",
+                    "type": "PROGRAMMING",
+                    "points": 3000.0,
+                    "tags": [
+                        "combinatorics",
+                        "math"
+                    ],
+                    "solvedCount": 31
+                },
+                {
+                    "contestId": 2262,
+                    "index": "F",
+                    "name": "Rank Removal",
+                    "type": "PROGRAMMING",
+                    "points": 3250.0,
+                    "tags": [
+                        "math"
+                    ],
+                    "solvedCount": 9
+                }
+            ]
+        },
+        {
+            "id": 2263,
+            "name": "Codeforces Round 1120 (Div. 2)",
+            "type": "CF",
+            "phase": "FINISHED",
+            "frozen": false,
+            "durationSeconds": 10800,
+            "startTimeSeconds": 1789223700,
+            "relativeTimeSeconds": 26803,
+            "div": "2",
+            "problems": [
+                {
+                    "contestId": 2263,
+                    "index": "A",
+                    "name": "Min Max Game",
+                    "type": "PROGRAMMING",
+                    "points": 500.0,
+                    "tags": [],
+                    "solvedCount": 11693
+                },
+                {
+                    "contestId": 2263,
+                    "index": "B",
+                    "name": "Min Matrices",
+                    "type": "PROGRAMMING",
+                    "points": 1000.0,
+                    "tags": [
+                        "constructive algorithms"
+                    ],
+                    "solvedCount": 9374
+                }
+            ]
+        },
+        {
             "id": 2261,
             "name": "Codeforces Round (Div. 1 + Div. 2)",
             "type": "CF",
@@ -190620,38 +190751,18 @@
             "frozen": false,
             "durationSeconds": 10800,
             "startTimeSeconds": 1792247700,
-            "relativeTimeSeconds": -3341262
+            "relativeTimeSeconds": -2997197
         },
         {
             "id": 2264,
-            "name": "Codeforces Round (Div. 2)",
+            "name": "Codeforces Round 1121 (Div. 2)",
             "type": "CF",
             "phase": "BEFORE",
             "frozen": false,
             "durationSeconds": 7200,
             "startTimeSeconds": 1789319100,
-            "relativeTimeSeconds": -412662
-        },
-        {
-            "id": 2262,
-            "name": "Codeforces Round (Div. 1)",
-            "type": "CF",
-            "phase": "BEFORE",
-            "frozen": false,
-            "durationSeconds": 10800,
-            "startTimeSeconds": 1789223700,
-            "relativeTimeSeconds": -317263
-        },
-        {
-            "id": 2263,
-            "name": "Codeforces Round (Div. 2)",
-            "type": "CF",
-            "phase": "BEFORE",
-            "frozen": false,
-            "durationSeconds": 10800,
-            "startTimeSeconds": 1789223700,
-            "relativeTimeSeconds": -317262
+            "relativeTimeSeconds": -68598
         }
     ],
-    "last_updated": "2026-09-08T22:28:03.492364+00:00"
+    "last_updated": "2026-09-12T22:02:09.970281+00:00"
 }

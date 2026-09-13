@@ -190744,6 +190744,109 @@
             ]
         },
         {
+            "id": 2264,
+            "name": "Codeforces Round 1121 (Div. 2)",
+            "type": "CF",
+            "phase": "FINISHED",
+            "frozen": false,
+            "durationSeconds": 7200,
+            "startTimeSeconds": 1789319100,
+            "relativeTimeSeconds": 18537,
+            "div": "2",
+            "problems": [
+                {
+                    "contestId": 2264,
+                    "index": "A",
+                    "name": "Rumb Needs a Hand",
+                    "type": "PROGRAMMING",
+                    "points": 500.0,
+                    "tags": [
+                        "implementation",
+                        "sortings",
+                        "two pointers"
+                    ],
+                    "solvedCount": 8826
+                },
+                {
+                    "contestId": 2264,
+                    "index": "B",
+                    "name": "Knife's Pill Farm",
+                    "type": "PROGRAMMING",
+                    "points": 1250.0,
+                    "tags": [
+                        "data structures",
+                        "greedy"
+                    ],
+                    "solvedCount": 6239
+                },
+                {
+                    "contestId": 2264,
+                    "index": "C",
+                    "name": "Madamant's Skating Dynasty",
+                    "type": "PROGRAMMING",
+                    "points": 1500.0,
+                    "tags": [
+                        "combinatorics",
+                        "math",
+                        "sortings"
+                    ],
+                    "solvedCount": 3700
+                },
+                {
+                    "contestId": 2264,
+                    "index": "D",
+                    "name": "Dr. Agos's Dark Mode",
+                    "type": "PROGRAMMING",
+                    "points": 2500.0,
+                    "tags": [
+                        "brute force",
+                        "constructive algorithms",
+                        "math",
+                        "strings"
+                    ],
+                    "solvedCount": 1112
+                },
+                {
+                    "contestId": 2264,
+                    "index": "E1",
+                    "name": "A Prime Flood (Easy Version)",
+                    "type": "PROGRAMMING",
+                    "points": 2000.0,
+                    "tags": [
+                        "combinatorics",
+                        "dp",
+                        "number theory"
+                    ],
+                    "solvedCount": 401
+                },
+                {
+                    "contestId": 2264,
+                    "index": "E2",
+                    "name": "A Prime Flood (Hard Version)",
+                    "type": "PROGRAMMING",
+                    "points": 1500.0,
+                    "tags": [
+                        "combinatorics",
+                        "dp",
+                        "number theory"
+                    ],
+                    "solvedCount": 74
+                },
+                {
+                    "contestId": 2264,
+                    "index": "F",
+                    "name": "Deranged Calculator",
+                    "type": "PROGRAMMING",
+                    "points": 3000.0,
+                    "tags": [
+                        "implementation",
+                        "math"
+                    ],
+                    "solvedCount": 56
+                }
+            ]
+        },
+        {
             "id": 2261,
             "name": "Codeforces Round (Div. 1 + Div. 2)",
             "type": "CF",
@@ -190751,18 +190854,8 @@
             "frozen": false,
             "durationSeconds": 10800,
             "startTimeSeconds": 1792247700,
-            "relativeTimeSeconds": -2997197
-        },
-        {
-            "id": 2264,
-            "name": "Codeforces Round 1121 (Div. 2)",
-            "type": "CF",
-            "phase": "BEFORE",
-            "frozen": false,
-            "durationSeconds": 7200,
-            "startTimeSeconds": 1789319100,
-            "relativeTimeSeconds": -68598
+            "relativeTimeSeconds": -2910064
         }
     ],
-    "last_updated": "2026-09-12T22:02:09.970281+00:00"
+    "last_updated": "2026-09-13T22:14:31.961109+00:00"
 }

@@ -190847,6 +190847,118 @@
             ]
         },
         {
+            "id": 2266,
+            "name": "Codeforces Round 1122 (Div. 3)",
+            "type": "ICPC",
+            "phase": "FINISHED",
+            "frozen": false,
+            "durationSeconds": 9000,
+            "startTimeSeconds": 1790001300,
+            "relativeTimeSeconds": 30555,
+            "div": "3",
+            "problems": [
+                {
+                    "contestId": 2266,
+                    "index": "A",
+                    "name": "Good Contest",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "greedy"
+                    ],
+                    "solvedCount": 21202
+                },
+                {
+                    "contestId": 2266,
+                    "index": "B",
+                    "name": "Three Piles",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "games",
+                        "greedy",
+                        "math"
+                    ],
+                    "solvedCount": 18667
+                },
+                {
+                    "contestId": 2266,
+                    "index": "C",
+                    "name": "AND, OR, Sort!",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "greedy",
+                        "strings"
+                    ],
+                    "solvedCount": 11774
+                },
+                {
+                    "contestId": 2266,
+                    "index": "D",
+                    "name": "Falling Concrete",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "constructive algorithms",
+                        "data structures",
+                        "math",
+                        "sortings"
+                    ],
+                    "solvedCount": 5896
+                },
+                {
+                    "contestId": 2266,
+                    "index": "E",
+                    "name": "Prime Destruction",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "dp",
+                        "math",
+                        "number theory"
+                    ],
+                    "solvedCount": 4309
+                },
+                {
+                    "contestId": 2266,
+                    "index": "F",
+                    "name": "MEX Replacement",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "binary search",
+                        "brute force",
+                        "greedy",
+                        "implementation",
+                        "math",
+                        "sortings"
+                    ],
+                    "solvedCount": 773
+                },
+                {
+                    "contestId": 2266,
+                    "index": "G",
+                    "name": "Modular Tree",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "dfs and similar",
+                        "greedy",
+                        "math",
+                        "number theory",
+                        "trees"
+                    ],
+                    "solvedCount": 312
+                },
+                {
+                    "contestId": 2266,
+                    "index": "H",
+                    "name": "Deque Malfunction",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "data structures",
+                        "dp",
+                        "greedy"
+                    ],
+                    "solvedCount": 113
+                }
+            ]
+        },
+        {
             "id": 2261,
             "name": "Codeforces Round (Div. 1 + Div. 2)",
             "type": "CF",
@@ -190854,8 +190966,78 @@
             "frozen": false,
             "durationSeconds": 10800,
             "startTimeSeconds": 1792247700,
-            "relativeTimeSeconds": -2910064
+            "relativeTimeSeconds": -2215845
+        },
+        {
+            "id": 2273,
+            "name": "Codeforces Round (Div. 1)",
+            "type": "CF",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 9000,
+            "startTimeSeconds": 1791743700,
+            "relativeTimeSeconds": -1711845
+        },
+        {
+            "id": 2274,
+            "name": "Codeforces Round (Div. 2)",
+            "type": "CF",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 9000,
+            "startTimeSeconds": 1791743700,
+            "relativeTimeSeconds": -1711845
+        },
+        {
+            "id": 2271,
+            "name": "Codeforces Round (Div. 1)",
+            "type": "CF",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 10800,
+            "startTimeSeconds": 1791644700,
+            "relativeTimeSeconds": -1612845
+        },
+        {
+            "id": 2272,
+            "name": "Codeforces Round (Div. 2)",
+            "type": "CF",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 10800,
+            "startTimeSeconds": 1791644700,
+            "relativeTimeSeconds": -1612845
+        },
+        {
+            "id": 2268,
+            "name": "Codeforces Round (Div. 1)",
+            "type": "CF",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 9000,
+            "startTimeSeconds": 1790433300,
+            "relativeTimeSeconds": -401445
+        },
+        {
+            "id": 2269,
+            "name": "Codeforces Round (Div. 2)",
+            "type": "CF",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 9000,
+            "startTimeSeconds": 1790433300,
+            "relativeTimeSeconds": -401445
+        },
+        {
+            "id": 2267,
+            "name": "Codeforces Round 1123 (Div. 2)",
+            "type": "CF",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 7200,
+            "startTimeSeconds": 1790346900,
+            "relativeTimeSeconds": -315046
         }
     ],
-    "last_updated": "2026-09-13T22:14:31.961109+00:00"
+    "last_updated": "2026-09-21T23:04:19.837447+00:00"
 }

@@ -191077,6 +191077,128 @@
             ]
         },
         {
+            "id": 2268,
+            "name": "Codeforces Round 1124 (Div. 1)",
+            "type": "CF",
+            "phase": "FINISHED",
+            "frozen": false,
+            "durationSeconds": 9000,
+            "startTimeSeconds": 1790433300,
+            "relativeTimeSeconds": 28585,
+            "div": "1",
+            "problems": [
+                {
+                    "contestId": 2268,
+                    "index": "A",
+                    "name": "K Is Important",
+                    "type": "PROGRAMMING",
+                    "points": 500.0,
+                    "tags": [
+                        "constructive algorithms",
+                        "greedy"
+                    ],
+                    "solvedCount": 6427
+                },
+                {
+                    "contestId": 2268,
+                    "index": "B",
+                    "name": "What a SauSaGe! It's All Meat",
+                    "type": "PROGRAMMING",
+                    "points": 1000.0,
+                    "tags": [
+                        "bitmasks",
+                        "math"
+                    ],
+                    "solvedCount": 3781
+                },
+                {
+                    "contestId": 2268,
+                    "index": "C",
+                    "name": "KiaKio and Energy Intervals",
+                    "type": "PROGRAMMING",
+                    "points": 1750.0,
+                    "tags": [
+                        "binary search",
+                        "bitmasks",
+                        "data structures",
+                        "greedy"
+                    ],
+                    "solvedCount": 468
+                },
+                {
+                    "contestId": 2268,
+                    "index": "D",
+                    "name": "AghaBalaSar and Hamed",
+                    "type": "PROGRAMMING",
+                    "points": 2250.0,
+                    "tags": [
+                        "dp"
+                    ],
+                    "solvedCount": 197
+                },
+                {
+                    "contestId": 2268,
+                    "index": "E",
+                    "name": "Kia Kio and Tree of Life",
+                    "type": "PROGRAMMING",
+                    "points": 2750.0,
+                    "tags": [
+                        "data structures",
+                        "fft"
+                    ],
+                    "solvedCount": 100
+                },
+                {
+                    "contestId": 2268,
+                    "index": "F",
+                    "name": "Deglado",
+                    "type": "PROGRAMMING",
+                    "points": 3250.0,
+                    "tags": [
+                        "constructive algorithms"
+                    ],
+                    "solvedCount": 8
+                }
+            ]
+        },
+        {
+            "id": 2269,
+            "name": "Codeforces Round 1124 (Div. 2)",
+            "type": "CF",
+            "phase": "FINISHED",
+            "frozen": false,
+            "durationSeconds": 9000,
+            "startTimeSeconds": 1790433300,
+            "relativeTimeSeconds": 28585,
+            "div": "2",
+            "problems": [
+                {
+                    "contestId": 2269,
+                    "index": "A",
+                    "name": "SauSaGe Bank",
+                    "type": "PROGRAMMING",
+                    "points": 500.0,
+                    "tags": [
+                        "greedy",
+                        "math"
+                    ],
+                    "solvedCount": 10713
+                },
+                {
+                    "contestId": 2269,
+                    "index": "B",
+                    "name": "KiaKio and Squared Numbers",
+                    "type": "PROGRAMMING",
+                    "points": 1000.0,
+                    "tags": [
+                        "brute force",
+                        "implementation"
+                    ],
+                    "solvedCount": 7584
+                }
+            ]
+        },
+        {
             "id": 2261,
             "name": "Codeforces Round (Div. 1 + Div. 2)",
             "type": "CF",
@@ -191084,7 +191206,7 @@
             "frozen": false,
             "durationSeconds": 10800,
             "startTimeSeconds": 1792247700,
-            "relativeTimeSeconds": -1869900
+            "relativeTimeSeconds": -1785815
         },
         {
             "id": 2273,
@@ -191094,7 +191216,7 @@
             "frozen": false,
             "durationSeconds": 9000,
             "startTimeSeconds": 1791743700,
-            "relativeTimeSeconds": -1365900
+            "relativeTimeSeconds": -1281815
         },
         {
             "id": 2274,
@@ -191104,7 +191226,7 @@
             "frozen": false,
             "durationSeconds": 9000,
             "startTimeSeconds": 1791743700,
-            "relativeTimeSeconds": -1365900
+            "relativeTimeSeconds": -1281815
         },
         {
             "id": 2271,
@@ -191114,28 +191236,8 @@
             "frozen": false,
             "durationSeconds": 10800,
             "startTimeSeconds": 1791644700,
-            "relativeTimeSeconds": -1266900
-        },
-        {
-            "id": 2268,
-            "name": "Codeforces Round 1124 (Div. 1)",
-            "type": "CF",
-            "phase": "BEFORE",
-            "frozen": false,
-            "durationSeconds": 9000,
-            "startTimeSeconds": 1790433300,
-            "relativeTimeSeconds": -55501
-        },
-        {
-            "id": 2269,
-            "name": "Codeforces Round 1124 (Div. 2)",
-            "type": "CF",
-            "phase": "BEFORE",
-            "frozen": false,
-            "durationSeconds": 9000,
-            "startTimeSeconds": 1790433300,
-            "relativeTimeSeconds": -55501
+            "relativeTimeSeconds": -1182816
         }
     ],
-    "last_updated": "2026-09-25T23:10:44.190549+00:00"
+    "last_updated": "2026-09-26T22:32:01.823453+00:00"
 }

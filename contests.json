@@ -191199,14 +191199,121 @@
             ]
         },
         {
+            "id": 2275,
+            "name": "Codeforces Round 1125 (Div. 3)",
+            "type": "ICPC",
+            "phase": "FINISHED",
+            "frozen": false,
+            "durationSeconds": 9000,
+            "startTimeSeconds": 1791384300,
+            "relativeTimeSeconds": 33539,
+            "div": "3",
+            "problems": [
+                {
+                    "contestId": 2275,
+                    "index": "A",
+                    "name": "In Search of Convenience",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "geometry",
+                        "implementation"
+                    ],
+                    "solvedCount": 19498
+                },
+                {
+                    "contestId": 2275,
+                    "index": "B",
+                    "name": "Did Not Go to Print",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "data structures",
+                        "implementation"
+                    ],
+                    "solvedCount": 16263
+                },
+                {
+                    "contestId": 2275,
+                    "index": "C",
+                    "name": "Unrequited Love",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "brute force",
+                        "data structures"
+                    ],
+                    "solvedCount": 11387
+                },
+                {
+                    "contestId": 2275,
+                    "index": "D",
+                    "name": "Precision Alignment",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "binary search",
+                        "greedy"
+                    ],
+                    "solvedCount": 5292
+                },
+                {
+                    "contestId": 2275,
+                    "index": "E",
+                    "name": "Repentance Is Already on the Way",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "dp",
+                        "implementation"
+                    ],
+                    "solvedCount": 2843
+                },
+                {
+                    "contestId": 2275,
+                    "index": "F",
+                    "name": "Tea Blend",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "hashing",
+                        "math",
+                        "number theory"
+                    ],
+                    "solvedCount": 1304
+                },
+                {
+                    "contestId": 2275,
+                    "index": "G",
+                    "name": "Copper Squander",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "binary search",
+                        "data structures",
+                        "dsu",
+                        "graphs",
+                        "greedy",
+                        "ternary search"
+                    ],
+                    "solvedCount": 607
+                },
+                {
+                    "contestId": 2275,
+                    "index": "H",
+                    "name": "A Problem to Warm Up the Eyebrows",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "combinatorics",
+                        "dp",
+                        "math"
+                    ],
+                    "solvedCount": 174
+                }
+            ]
+        },
+        {
             "id": 2261,
-            "name": "Codeforces Round (Div. 1 + Div. 2)",
+            "name": "WorldQuant Round 1 (Codeforces Round Div. 1 + Div. 2)",
             "type": "CF",
             "phase": "BEFORE",
             "frozen": false,
             "durationSeconds": 10800,
             "startTimeSeconds": 1792247700,
-            "relativeTimeSeconds": -1785815
+            "relativeTimeSeconds": -829860
         },
         {
             "id": 2273,
@@ -191216,7 +191323,7 @@
             "frozen": false,
             "durationSeconds": 9000,
             "startTimeSeconds": 1791743700,
-            "relativeTimeSeconds": -1281815
+            "relativeTimeSeconds": -325860
         },
         {
             "id": 2274,
@@ -191226,18 +191333,18 @@
             "frozen": false,
             "durationSeconds": 9000,
             "startTimeSeconds": 1791743700,
-            "relativeTimeSeconds": -1281815
+            "relativeTimeSeconds": -325860
         },
         {
             "id": 2271,
-            "name": "Codeforces Round (Div. 1 + Div. 2)",
+            "name": "DeepInfra Round 1 (Codeforces Round 1126, Div. 1 + Div. 2)",
             "type": "CF",
             "phase": "BEFORE",
             "frozen": false,
             "durationSeconds": 10800,
             "startTimeSeconds": 1791644700,
-            "relativeTimeSeconds": -1182816
+            "relativeTimeSeconds": -226861
         }
     ],
-    "last_updated": "2026-09-26T22:32:01.823453+00:00"
+    "last_updated": "2026-10-08T00:04:26.407057+00:00"
 }

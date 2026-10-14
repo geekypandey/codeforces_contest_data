@@ -191556,25 +191556,133 @@
             ]
         },
         {
+            "id": 2276,
+            "name": "Educational Codeforces Round 195 (Rated for Div. 2)",
+            "type": "ICPC",
+            "phase": "FINISHED",
+            "frozen": false,
+            "durationSeconds": 7200,
+            "startTimeSeconds": 1791988500,
+            "relativeTimeSeconds": 30462,
+            "div": "2",
+            "problems": [
+                {
+                    "contestId": 2276,
+                    "index": "A",
+                    "name": "Perfect Sandwiches",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "greedy",
+                        "math"
+                    ],
+                    "solvedCount": 11148
+                },
+                {
+                    "contestId": 2276,
+                    "index": "B",
+                    "name": "Replace and Compress",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "implementation",
+                        "strings"
+                    ],
+                    "solvedCount": 7908
+                },
+                {
+                    "contestId": 2276,
+                    "index": "C",
+                    "name": "Subarrays",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "math",
+                        "number theory"
+                    ],
+                    "solvedCount": 6971
+                },
+                {
+                    "contestId": 2276,
+                    "index": "D",
+                    "name": "Caveman",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "combinatorics",
+                        "graphs"
+                    ],
+                    "solvedCount": 4256
+                },
+                {
+                    "contestId": 2276,
+                    "index": "E",
+                    "name": "Good Substrings",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "combinatorics",
+                        "data structures",
+                        "dp",
+                        "greedy",
+                        "strings"
+                    ],
+                    "solvedCount": 1593
+                },
+                {
+                    "contestId": 2276,
+                    "index": "F",
+                    "name": "Permutation Coloring Game",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "dp",
+                        "dsu",
+                        "games",
+                        "greedy",
+                        "implementation",
+                        "math"
+                    ],
+                    "solvedCount": 235
+                },
+                {
+                    "contestId": 2276,
+                    "index": "G",
+                    "name": "Elimination of Players",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "combinatorics",
+                        "dp",
+                        "math"
+                    ],
+                    "solvedCount": 33
+                }
+            ]
+        },
+        {
+            "id": 2272,
+            "name": "Codeforces Round (Div. 2)",
+            "type": "CF",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 8100,
+            "startTimeSeconds": 1793025300,
+            "relativeTimeSeconds": -1006338
+        },
+        {
+            "id": 2277,
+            "name": "Codeforces Round (Div. 2)",
+            "type": "CF",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 7200,
+            "startTimeSeconds": 1792839900,
+            "relativeTimeSeconds": -820938
+        },
+        {
             "id": 2261,
-            "name": "WorldQuant Round 1 (Codeforces Round Div. 1 + Div. 2)",
+            "name": "WorldQuant Round 1 (Codeforces Round 1128, Div. 1 + Div. 2)",
             "type": "CF",
             "phase": "BEFORE",
             "frozen": false,
             "durationSeconds": 10800,
             "startTimeSeconds": 1792247700,
-            "relativeTimeSeconds": -486298
-        },
-        {
-            "id": 2276,
-            "name": "Educational Codeforces Round 195 (Rated for Div. 2)",
-            "type": "ICPC",
-            "phase": "BEFORE",
-            "frozen": false,
-            "durationSeconds": 7200,
-            "startTimeSeconds": 1791988500,
-            "relativeTimeSeconds": -227098
+            "relativeTimeSeconds": -228739
         }
     ],
-    "last_updated": "2026-10-11T23:30:38.062605+00:00"
+    "last_updated": "2026-10-14T23:03:41.675369+00:00"
 }

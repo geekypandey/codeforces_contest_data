@@ -191654,6 +191654,164 @@
             ]
         },
         {
+            "id": 2261,
+            "name": "WorldQuant Round 1 (Codeforces Round 1128, Div. 1 + Div. 2)",
+            "type": "CF",
+            "phase": "FINISHED",
+            "frozen": false,
+            "durationSeconds": 10800,
+            "startTimeSeconds": 1792247700,
+            "relativeTimeSeconds": 26855,
+            "div": "1",
+            "problems": [
+                {
+                    "contestId": 2261,
+                    "index": "A",
+                    "name": "Hey, It's Me, Souvlakity",
+                    "type": "PROGRAMMING",
+                    "points": 500.0,
+                    "tags": [
+                        "games",
+                        "math"
+                    ],
+                    "solvedCount": 8080
+                },
+                {
+                    "contestId": 2261,
+                    "index": "B",
+                    "name": "What's the Capital of France?",
+                    "type": "PROGRAMMING",
+                    "points": 1000.0,
+                    "tags": [
+                        "bitmasks",
+                        "greedy",
+                        "math"
+                    ],
+                    "solvedCount": 6127
+                },
+                {
+                    "contestId": 2261,
+                    "index": "C",
+                    "name": "I Know About a Million Things",
+                    "type": "PROGRAMMING",
+                    "points": 1000.0,
+                    "tags": [
+                        "games",
+                        "math"
+                    ],
+                    "solvedCount": 6625
+                },
+                {
+                    "contestId": 2261,
+                    "index": "D1",
+                    "name": "Come Be My Friend, Don't Be So Scared (Easy Version)",
+                    "type": "PROGRAMMING",
+                    "points": 1500.0,
+                    "tags": [
+                        "constructive algorithms",
+                        "math"
+                    ],
+                    "solvedCount": 4629
+                },
+                {
+                    "contestId": 2261,
+                    "index": "D2",
+                    "name": "Come Be My Friend, Don't Be So Scared (Hard Version)",
+                    "type": "PROGRAMMING",
+                    "points": 2250.0,
+                    "tags": [
+                        "constructive algorithms",
+                        "data structures",
+                        "dsu",
+                        "hashing",
+                        "trees",
+                        "two pointers"
+                    ],
+                    "solvedCount": 361
+                },
+                {
+                    "contestId": 2261,
+                    "index": "E",
+                    "name": "What Does the Cow Say?",
+                    "type": "PROGRAMMING",
+                    "points": 2000.0,
+                    "tags": [
+                        "binary search",
+                        "data structures",
+                        "dfs and similar",
+                        "greedy",
+                        "trees"
+                    ],
+                    "solvedCount": 1614
+                },
+                {
+                    "contestId": 2261,
+                    "index": "F1",
+                    "name": "Plegma II: Ask Me Any Cell (Easy Version)",
+                    "type": "PROGRAMMING",
+                    "points": 2500.0,
+                    "tags": [
+                        "brute force",
+                        "communication",
+                        "constructive algorithms",
+                        "dp",
+                        "math"
+                    ],
+                    "solvedCount": 227
+                },
+                {
+                    "contestId": 2261,
+                    "index": "F2",
+                    "name": "Plegma II: Ask Me Any Cell (Hard Version)",
+                    "type": "PROGRAMMING",
+                    "points": 5000.0,
+                    "tags": [
+                        "constructive algorithms"
+                    ],
+                    "solvedCount": 8
+                },
+                {
+                    "contestId": 2261,
+                    "index": "G",
+                    "name": "1 2 3 and XOR, Where Did Everybody Go?",
+                    "type": "PROGRAMMING",
+                    "points": 4000.0,
+                    "tags": [
+                        "bitmasks",
+                        "data structures",
+                        "divide and conquer",
+                        "greedy"
+                    ],
+                    "solvedCount": 124
+                },
+                {
+                    "contestId": 2261,
+                    "index": "H",
+                    "name": "Oh Tree Tree Tree, No Need to Leave",
+                    "type": "PROGRAMMING",
+                    "points": 4500.0,
+                    "tags": [
+                        "bitmasks",
+                        "communication",
+                        "dfs and similar",
+                        "interactive",
+                        "trees"
+                    ],
+                    "solvedCount": 24
+                }
+            ]
+        },
+        {
+            "id": 2278,
+            "name": "Codeforces Round (Div. 3)",
+            "type": "ICPC",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 8100,
+            "startTimeSeconds": 1793284500,
+            "relativeTimeSeconds": -1009945
+        },
+        {
             "id": 2272,
             "name": "Codeforces Round (Div. 2)",
             "type": "CF",
@@ -191661,7 +191819,7 @@
             "frozen": false,
             "durationSeconds": 8100,
             "startTimeSeconds": 1793025300,
-            "relativeTimeSeconds": -1006338
+            "relativeTimeSeconds": -750745
         },
         {
             "id": 2277,
@@ -191671,18 +191829,8 @@
             "frozen": false,
             "durationSeconds": 7200,
             "startTimeSeconds": 1792839900,
-            "relativeTimeSeconds": -820938
-        },
-        {
-            "id": 2261,
-            "name": "WorldQuant Round 1 (Codeforces Round 1128, Div. 1 + Div. 2)",
-            "type": "CF",
-            "phase": "BEFORE",
-            "frozen": false,
-            "durationSeconds": 10800,
-            "startTimeSeconds": 1792247700,
-            "relativeTimeSeconds": -228739
+            "relativeTimeSeconds": -565346
         }
     ],
-    "last_updated": "2026-10-14T23:03:41.675369+00:00"
+    "last_updated": "2026-10-17T22:02:53.209323+00:00"
 }

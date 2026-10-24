@@ -191802,35 +191802,156 @@
             ]
         },
         {
+            "id": 2277,
+            "name": "Codeforces Round 1129 (Div. 2)",
+            "type": "CF",
+            "phase": "FINISHED",
+            "frozen": false,
+            "durationSeconds": 8100,
+            "startTimeSeconds": 1792839900,
+            "relativeTimeSeconds": 40345,
+            "div": "2",
+            "problems": [
+                {
+                    "contestId": 2277,
+                    "index": "A",
+                    "name": "Subset Selecting",
+                    "type": "PROGRAMMING",
+                    "points": 500.0,
+                    "tags": [],
+                    "solvedCount": 8478
+                },
+                {
+                    "contestId": 2277,
+                    "index": "B",
+                    "name": "Sequence Decreasing",
+                    "type": "PROGRAMMING",
+                    "points": 750.0,
+                    "tags": [
+                        "constructive algorithms",
+                        "greedy"
+                    ],
+                    "solvedCount": 7155
+                },
+                {
+                    "contestId": 2277,
+                    "index": "C",
+                    "name": "Edge Addeleting",
+                    "type": "PROGRAMMING",
+                    "points": 1500.0,
+                    "tags": [
+                        "dfs and similar",
+                        "graphs",
+                        "greedy",
+                        "trees"
+                    ],
+                    "solvedCount": 4480
+                },
+                {
+                    "contestId": 2277,
+                    "index": "D1",
+                    "name": "Number Operating (Easy Version)",
+                    "type": "PROGRAMMING",
+                    "points": 2000.0,
+                    "tags": [
+                        "binary search",
+                        "brute force",
+                        "dp",
+                        "implementation"
+                    ],
+                    "solvedCount": 1983
+                },
+                {
+                    "contestId": 2277,
+                    "index": "D2",
+                    "name": "Number Operating (Hard Version)",
+                    "type": "PROGRAMMING",
+                    "points": 2250.0,
+                    "tags": [
+                        "brute force",
+                        "divide and conquer",
+                        "implementation"
+                    ],
+                    "solvedCount": 253
+                },
+                {
+                    "contestId": 2277,
+                    "index": "E",
+                    "name": "Tree Guessing",
+                    "type": "PROGRAMMING",
+                    "points": 2750.0,
+                    "tags": [
+                        "interactive",
+                        "trees"
+                    ],
+                    "solvedCount": 135
+                },
+                {
+                    "contestId": 2277,
+                    "index": "F",
+                    "name": "Token Re-Moving",
+                    "type": "PROGRAMMING",
+                    "points": 3000.0,
+                    "tags": [
+                        "data structures",
+                        "dfs and similar",
+                        "dsu",
+                        "trees"
+                    ],
+                    "solvedCount": 135
+                }
+            ]
+        },
+        {
+            "id": 2279,
+            "name": "Codeforces Round (Div. 1)",
+            "type": "CF",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 9000,
+            "startTimeSeconds": 1794062100,
+            "relativeTimeSeconds": -1181855
+        },
+        {
+            "id": 2280,
+            "name": "Codeforces Round (Div. 2)",
+            "type": "CF",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 9000,
+            "startTimeSeconds": 1794062100,
+            "relativeTimeSeconds": -1181855
+        },
+        {
+            "id": 2281,
+            "name": "ICPC 2026 Online Challenge 2 powered by Huawei",
+            "type": "IOI",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 1209600,
+            "startTimeSeconds": 1793876400,
+            "relativeTimeSeconds": -996155
+        },
+        {
             "id": 2278,
-            "name": "Codeforces Round (Div. 3)",
+            "name": "Codeforces Round 1131 (Div. 3)",
             "type": "ICPC",
             "phase": "BEFORE",
             "frozen": false,
             "durationSeconds": 8100,
-            "startTimeSeconds": 1793284500,
-            "relativeTimeSeconds": -1009945
+            "startTimeSeconds": 1793457300,
+            "relativeTimeSeconds": -577055
         },
         {
             "id": 2272,
-            "name": "Codeforces Round (Div. 2)",
+            "name": "Codeforces Round 1130 (Div. 2)",
             "type": "CF",
             "phase": "BEFORE",
             "frozen": false,
             "durationSeconds": 8100,
             "startTimeSeconds": 1793025300,
-            "relativeTimeSeconds": -750745
-        },
-        {
-            "id": 2277,
-            "name": "Codeforces Round (Div. 2)",
-            "type": "CF",
-            "phase": "BEFORE",
-            "frozen": false,
-            "durationSeconds": 7200,
-            "startTimeSeconds": 1792839900,
-            "relativeTimeSeconds": -565346
+            "relativeTimeSeconds": -145055
         }
     ],
-    "last_updated": "2026-10-17T22:02:53.209323+00:00"
+    "last_updated": "2026-10-24T22:18:19.686802+00:00"
 }

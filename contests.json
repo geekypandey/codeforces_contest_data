@@ -191903,6 +191903,124 @@
             ]
         },
         {
+            "id": 2272,
+            "name": "Codeforces Round 1130 (Div. 2)",
+            "type": "CF",
+            "phase": "FINISHED",
+            "frozen": false,
+            "durationSeconds": 8100,
+            "startTimeSeconds": 1793025300,
+            "relativeTimeSeconds": 32597,
+            "div": "2",
+            "problems": [
+                {
+                    "contestId": 2272,
+                    "index": "A",
+                    "name": "Maximize One MEX",
+                    "type": "PROGRAMMING",
+                    "points": 500.0,
+                    "tags": [
+                        "brute force"
+                    ],
+                    "solvedCount": 7992
+                },
+                {
+                    "contestId": 2272,
+                    "index": "B",
+                    "name": "Frogs Jump",
+                    "type": "PROGRAMMING",
+                    "points": 1000.0,
+                    "tags": [
+                        "constructive algorithms",
+                        "greedy"
+                    ],
+                    "solvedCount": 6610
+                },
+                {
+                    "contestId": 2272,
+                    "index": "C",
+                    "name": "Yet Another Black Cell Problem",
+                    "type": "PROGRAMMING",
+                    "points": 1000.0,
+                    "tags": [
+                        "binary search",
+                        "dp"
+                    ],
+                    "solvedCount": 4192
+                },
+                {
+                    "contestId": 2272,
+                    "index": "D",
+                    "name": "Connecting the Conflicts",
+                    "type": "PROGRAMMING",
+                    "points": 1250.0,
+                    "tags": [
+                        "constructive algorithms",
+                        "dfs and similar",
+                        "dp"
+                    ],
+                    "solvedCount": 2027
+                },
+                {
+                    "contestId": 2272,
+                    "index": "E",
+                    "name": "Memory Cell Interception",
+                    "type": "PROGRAMMING",
+                    "points": 1750.0,
+                    "tags": [
+                        "data structures",
+                        "greedy"
+                    ],
+                    "solvedCount": 616
+                },
+                {
+                    "contestId": 2272,
+                    "index": "F",
+                    "name": "Tree Reduction Game",
+                    "type": "PROGRAMMING",
+                    "points": 2000.0,
+                    "tags": [
+                        "dfs and similar",
+                        "dp",
+                        "trees"
+                    ],
+                    "solvedCount": 239
+                },
+                {
+                    "contestId": 2272,
+                    "index": "G",
+                    "name": "Ranges",
+                    "type": "PROGRAMMING",
+                    "points": 2500.0,
+                    "tags": [
+                        "data structures",
+                        "dsu"
+                    ],
+                    "solvedCount": 110
+                }
+            ]
+        },
+        {
+            "id": 2282,
+            "name": "Kotlin Heroes: Episode 15",
+            "type": "ICPC",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 9000,
+            "startTimeSeconds": 1795790100,
+            "relativeTimeSeconds": -2732203
+        },
+        {
+            "id": 2285,
+            "name": "Codeforces Round (Div. 2)",
+            "type": "CF",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 7200,
+            "startTimeSeconds": 1794753300,
+            "relativeTimeSeconds": -1695403
+        },
+        {
             "id": 2279,
             "name": "Codeforces Round (Div. 1)",
             "type": "CF",
@@ -191910,7 +192028,7 @@
             "frozen": false,
             "durationSeconds": 9000,
             "startTimeSeconds": 1794062100,
-            "relativeTimeSeconds": -1181855
+            "relativeTimeSeconds": -1004203
         },
         {
             "id": 2280,
@@ -191920,7 +192038,17 @@
             "frozen": false,
             "durationSeconds": 9000,
             "startTimeSeconds": 1794062100,
-            "relativeTimeSeconds": -1181855
+            "relativeTimeSeconds": -1004203
+        },
+        {
+            "id": 2284,
+            "name": "Codeforces Round (Div. 2)",
+            "type": "CF",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 8100,
+            "startTimeSeconds": 1793975700,
+            "relativeTimeSeconds": -917803
         },
         {
             "id": 2281,
@@ -191930,7 +192058,17 @@
             "frozen": false,
             "durationSeconds": 1209600,
             "startTimeSeconds": 1793876400,
-            "relativeTimeSeconds": -996155
+            "relativeTimeSeconds": -818503
+        },
+        {
+            "id": 2283,
+            "name": "Educational Codeforces Round 196 (Rated for Div. 2)",
+            "type": "ICPC",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 7200,
+            "startTimeSeconds": 1793802900,
+            "relativeTimeSeconds": -745003
         },
         {
             "id": 2278,
@@ -191940,18 +192078,8 @@
             "frozen": false,
             "durationSeconds": 8100,
             "startTimeSeconds": 1793457300,
-            "relativeTimeSeconds": -577055
-        },
-        {
-            "id": 2272,
-            "name": "Codeforces Round 1130 (Div. 2)",
-            "type": "CF",
-            "phase": "BEFORE",
-            "frozen": false,
-            "durationSeconds": 8100,
-            "startTimeSeconds": 1793025300,
-            "relativeTimeSeconds": -145055
+            "relativeTimeSeconds": -399404
         }
     ],
-    "last_updated": "2026-10-24T22:18:19.686802+00:00"
+    "last_updated": "2026-10-26T23:38:37.923387+00:00"
 }

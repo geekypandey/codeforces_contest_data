@@ -192001,14 +192001,114 @@
             ]
         },
         {
+            "id": 2278,
+            "name": "Codeforces Round 1131 (Div. 3)",
+            "type": "ICPC",
+            "phase": "FINISHED",
+            "frozen": false,
+            "durationSeconds": 8100,
+            "startTimeSeconds": 1793457300,
+            "relativeTimeSeconds": 30963,
+            "div": "3",
+            "problems": [
+                {
+                    "contestId": 2278,
+                    "index": "A",
+                    "name": "Fraction and Six",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "implementation",
+                        "sortings"
+                    ],
+                    "solvedCount": 14902
+                },
+                {
+                    "contestId": 2278,
+                    "index": "B",
+                    "name": "Stakes and Shapes",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "constructive algorithms"
+                    ],
+                    "solvedCount": 11960
+                },
+                {
+                    "contestId": 2278,
+                    "index": "C",
+                    "name": "Math and Physics",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "greedy"
+                    ],
+                    "solvedCount": 10078
+                },
+                {
+                    "contestId": 2278,
+                    "index": "D",
+                    "name": "Lock and Unlock",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "greedy"
+                    ],
+                    "solvedCount": 6606
+                },
+                {
+                    "contestId": 2278,
+                    "index": "E",
+                    "name": "Swap and Negate",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "constructive algorithms",
+                        "greedy"
+                    ],
+                    "solvedCount": 3689
+                },
+                {
+                    "contestId": 2278,
+                    "index": "F",
+                    "name": "Modulo and Counting",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "dp",
+                        "math",
+                        "number theory"
+                    ],
+                    "solvedCount": 765
+                },
+                {
+                    "contestId": 2278,
+                    "index": "G",
+                    "name": "0s and 1s",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "dp",
+                        "hashing",
+                        "number theory",
+                        "trees"
+                    ],
+                    "solvedCount": 328
+                }
+            ]
+        },
+        {
             "id": 2282,
             "name": "Kotlin Heroes: Episode 15",
             "type": "ICPC",
             "phase": "BEFORE",
             "frozen": false,
             "durationSeconds": 9000,
-            "startTimeSeconds": 1795790100,
-            "relativeTimeSeconds": -2732203
+            "startTimeSeconds": 1796740500,
+            "relativeTimeSeconds": -3252237
+        },
+        {
+            "id": 2286,
+            "name": "Kotlin Heroes: Practice 15",
+            "type": "ICPC",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 604800,
+            "startTimeSeconds": 1796135400,
+            "relativeTimeSeconds": -2647137
         },
         {
             "id": 2285,
@@ -192018,7 +192118,7 @@
             "frozen": false,
             "durationSeconds": 7200,
             "startTimeSeconds": 1794753300,
-            "relativeTimeSeconds": -1695403
+            "relativeTimeSeconds": -1265037
         },
         {
             "id": 2279,
@@ -192028,7 +192128,7 @@
             "frozen": false,
             "durationSeconds": 9000,
             "startTimeSeconds": 1794062100,
-            "relativeTimeSeconds": -1004203
+            "relativeTimeSeconds": -573837
         },
         {
             "id": 2280,
@@ -192038,7 +192138,7 @@
             "frozen": false,
             "durationSeconds": 9000,
             "startTimeSeconds": 1794062100,
-            "relativeTimeSeconds": -1004203
+            "relativeTimeSeconds": -573837
         },
         {
             "id": 2284,
@@ -192048,17 +192148,7 @@
             "frozen": false,
             "durationSeconds": 8100,
             "startTimeSeconds": 1793975700,
-            "relativeTimeSeconds": -917803
-        },
-        {
-            "id": 2281,
-            "name": "ICPC 2026 Online Challenge 2 powered by Huawei",
-            "type": "IOI",
-            "phase": "BEFORE",
-            "frozen": false,
-            "durationSeconds": 1209600,
-            "startTimeSeconds": 1793876400,
-            "relativeTimeSeconds": -818503
+            "relativeTimeSeconds": -487437
         },
         {
             "id": 2283,
@@ -192068,18 +192158,8 @@
             "frozen": false,
             "durationSeconds": 7200,
             "startTimeSeconds": 1793802900,
-            "relativeTimeSeconds": -745003
-        },
-        {
-            "id": 2278,
-            "name": "Codeforces Round 1131 (Div. 3)",
-            "type": "ICPC",
-            "phase": "BEFORE",
-            "frozen": false,
-            "durationSeconds": 8100,
-            "startTimeSeconds": 1793457300,
-            "relativeTimeSeconds": -399404
+            "relativeTimeSeconds": -314637
         }
     ],
-    "last_updated": "2026-10-26T23:38:37.923387+00:00"
+    "last_updated": "2026-10-31T23:11:20.751622+00:00"
 }

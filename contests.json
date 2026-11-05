@@ -192091,6 +192091,134 @@
             ]
         },
         {
+            "id": 2283,
+            "name": "Educational Codeforces Round 196 (Rated for Div. 2)",
+            "type": "ICPC",
+            "phase": "FINISHED",
+            "frozen": false,
+            "durationSeconds": 7200,
+            "startTimeSeconds": 1793803500,
+            "relativeTimeSeconds": 36065,
+            "div": "2",
+            "problems": [
+                {
+                    "contestId": 2283,
+                    "index": "A",
+                    "name": "Numbers on the Board",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "2-sat",
+                        "binary search",
+                        "bitmasks",
+                        "brute force",
+                        "chinese remainder theorem",
+                        "combinatorics",
+                        "communication",
+                        "constructive algorithms",
+                        "data structures",
+                        "dfs and similar",
+                        "divide and conquer",
+                        "dp",
+                        "dsu",
+                        "expression parsing",
+                        "fft",
+                        "flows",
+                        "games",
+                        "geometry",
+                        "graph matchings",
+                        "graphs",
+                        "greedy",
+                        "hashing",
+                        "implementation",
+                        "interactive",
+                        "math",
+                        "matrices",
+                        "meet-in-the-middle",
+                        "number theory",
+                        "probabilities",
+                        "schedules",
+                        "shortest paths",
+                        "sortings",
+                        "string suffix structures",
+                        "strings",
+                        "ternary search",
+                        "trees",
+                        "two pointers"
+                    ],
+                    "solvedCount": 9521
+                },
+                {
+                    "contestId": 2283,
+                    "index": "B",
+                    "name": "Rhythmic String",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "brute force",
+                        "number theory"
+                    ],
+                    "solvedCount": 8278
+                },
+                {
+                    "contestId": 2283,
+                    "index": "C",
+                    "name": "Big XOR",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "bitmasks",
+                        "constructive algorithms"
+                    ],
+                    "solvedCount": 4790
+                },
+                {
+                    "contestId": 2283,
+                    "index": "D",
+                    "name": "Black, Gray and White",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "brute force",
+                        "constructive algorithms",
+                        "dfs and similar"
+                    ],
+                    "solvedCount": 2878
+                },
+                {
+                    "contestId": 2283,
+                    "index": "E",
+                    "name": "Partition of a Binary String",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "combinatorics",
+                        "dp"
+                    ],
+                    "solvedCount": 1020
+                },
+                {
+                    "contestId": 2283,
+                    "index": "F",
+                    "name": "Minimize the Graph",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "brute force",
+                        "data structures",
+                        "greedy"
+                    ],
+                    "solvedCount": 331
+                },
+                {
+                    "contestId": 2283,
+                    "index": "G",
+                    "name": "Order Statistics on the Graph",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "bitmasks",
+                        "brute force",
+                        "sortings"
+                    ],
+                    "solvedCount": 52
+                }
+            ]
+        },
+        {
             "id": 2282,
             "name": "Kotlin Heroes: Episode 15",
             "type": "ICPC",
@@ -192098,7 +192226,7 @@
             "frozen": false,
             "durationSeconds": 9000,
             "startTimeSeconds": 1796740500,
-            "relativeTimeSeconds": -3252237
+            "relativeTimeSeconds": -2900935
         },
         {
             "id": 2286,
@@ -192108,7 +192236,27 @@
             "frozen": false,
             "durationSeconds": 604800,
             "startTimeSeconds": 1796135400,
-            "relativeTimeSeconds": -2647137
+            "relativeTimeSeconds": -2295835
+        },
+        {
+            "id": 2287,
+            "name": "Codeforces Round (Div. 1)",
+            "type": "CF",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 7200,
+            "startTimeSeconds": 1795271700,
+            "relativeTimeSeconds": -1432135
+        },
+        {
+            "id": 2288,
+            "name": "Codeforces Round (Div. 2)",
+            "type": "CF",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 7200,
+            "startTimeSeconds": 1795271700,
+            "relativeTimeSeconds": -1432135
         },
         {
             "id": 2285,
@@ -192118,48 +192266,38 @@
             "frozen": false,
             "durationSeconds": 7200,
             "startTimeSeconds": 1794753300,
-            "relativeTimeSeconds": -1265037
+            "relativeTimeSeconds": -913735
         },
         {
             "id": 2279,
-            "name": "Codeforces Round (Div. 1)",
+            "name": "Codeforces Round 1133 (Div. 1)",
             "type": "CF",
             "phase": "BEFORE",
             "frozen": false,
             "durationSeconds": 9000,
             "startTimeSeconds": 1794062100,
-            "relativeTimeSeconds": -573837
+            "relativeTimeSeconds": -222535
         },
         {
             "id": 2280,
-            "name": "Codeforces Round (Div. 2)",
+            "name": "Codeforces Round 1133 (Div. 2)",
             "type": "CF",
             "phase": "BEFORE",
             "frozen": false,
             "durationSeconds": 9000,
             "startTimeSeconds": 1794062100,
-            "relativeTimeSeconds": -573837
+            "relativeTimeSeconds": -222535
         },
         {
             "id": 2284,
-            "name": "Codeforces Round (Div. 2)",
+            "name": "Codeforces Round 1132 (Div. 2)",
             "type": "CF",
             "phase": "BEFORE",
             "frozen": false,
             "durationSeconds": 8100,
             "startTimeSeconds": 1793975700,
-            "relativeTimeSeconds": -487437
-        },
-        {
-            "id": 2283,
-            "name": "Educational Codeforces Round 196 (Rated for Div. 2)",
-            "type": "ICPC",
-            "phase": "BEFORE",
-            "frozen": false,
-            "durationSeconds": 7200,
-            "startTimeSeconds": 1793802900,
-            "relativeTimeSeconds": -314637
+            "relativeTimeSeconds": -136135
         }
     ],
-    "last_updated": "2026-10-31T23:11:20.751622+00:00"
+    "last_updated": "2026-11-05T00:46:50.360226+00:00"
 }

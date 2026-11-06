@@ -192219,6 +192219,133 @@
             ]
         },
         {
+            "id": 2284,
+            "name": "Codeforces Round 1132 (Div. 2)",
+            "type": "CF",
+            "phase": "FINISHED",
+            "frozen": false,
+            "durationSeconds": 8100,
+            "startTimeSeconds": 1793975700,
+            "relativeTimeSeconds": 33840,
+            "div": "2",
+            "problems": [
+                {
+                    "contestId": 2284,
+                    "index": "A1",
+                    "name": "15K4JR3B (Easy Version)",
+                    "type": "PROGRAMMING",
+                    "points": 500.0,
+                    "tags": [
+                        "greedy",
+                        "math",
+                        "number theory"
+                    ],
+                    "solvedCount": 9445
+                },
+                {
+                    "contestId": 2284,
+                    "index": "A2",
+                    "name": "15K4JR3B (Hard Version)",
+                    "type": "PROGRAMMING",
+                    "points": 500.0,
+                    "tags": [
+                        "greedy",
+                        "math",
+                        "number theory"
+                    ],
+                    "solvedCount": 7691
+                },
+                {
+                    "contestId": 2284,
+                    "index": "B",
+                    "name": "Introduction to the Niche Internet",
+                    "type": "PROGRAMMING",
+                    "points": 1000.0,
+                    "tags": [
+                        "greedy",
+                        "sortings"
+                    ],
+                    "solvedCount": 6142
+                },
+                {
+                    "contestId": 2284,
+                    "index": "C1",
+                    "name": "Disgusting + GCD (Constructive Version)",
+                    "type": "PROGRAMMING",
+                    "points": 1000.0,
+                    "tags": [
+                        "constructive algorithms",
+                        "dp",
+                        "greedy",
+                        "math",
+                        "number theory"
+                    ],
+                    "solvedCount": 4420
+                },
+                {
+                    "contestId": 2284,
+                    "index": "C2",
+                    "name": "Disgusting + GCD (Checker Version)",
+                    "type": "PROGRAMMING",
+                    "points": 1250.0,
+                    "tags": [
+                        "brute force",
+                        "dp",
+                        "graphs",
+                        "greedy",
+                        "math",
+                        "number theory"
+                    ],
+                    "solvedCount": 1912
+                },
+                {
+                    "contestId": 2284,
+                    "index": "D",
+                    "name": "The Theorem of Two Cans",
+                    "type": "PROGRAMMING",
+                    "points": 2000.0,
+                    "tags": [
+                        "communication",
+                        "constructive algorithms",
+                        "dfs and similar",
+                        "graphs",
+                        "interactive",
+                        "math",
+                        "trees"
+                    ],
+                    "solvedCount": 605
+                },
+                {
+                    "contestId": 2284,
+                    "index": "E",
+                    "name": "My Mind Is Going",
+                    "type": "PROGRAMMING",
+                    "points": 2500.0,
+                    "tags": [
+                        "binary search",
+                        "graphs",
+                        "interactive"
+                    ],
+                    "solvedCount": 47
+                },
+                {
+                    "contestId": 2284,
+                    "index": "F",
+                    "name": "Fun Times",
+                    "type": "PROGRAMMING",
+                    "points": 2750.0,
+                    "tags": [
+                        "combinatorics",
+                        "data structures",
+                        "dp",
+                        "math",
+                        "matrices"
+                    ],
+                    "solvedCount": 62
+                }
+            ]
+        },
+        {
             "id": 2282,
             "name": "Kotlin Heroes: Episode 15",
             "type": "ICPC",
@@ -192226,7 +192353,7 @@
             "frozen": false,
             "durationSeconds": 9000,
             "startTimeSeconds": 1796740500,
-            "relativeTimeSeconds": -2900935
+            "relativeTimeSeconds": -2730960
         },
         {
             "id": 2286,
@@ -192236,7 +192363,7 @@
             "frozen": false,
             "durationSeconds": 604800,
             "startTimeSeconds": 1796135400,
-            "relativeTimeSeconds": -2295835
+            "relativeTimeSeconds": -2125860
         },
         {
             "id": 2287,
@@ -192246,7 +192373,7 @@
             "frozen": false,
             "durationSeconds": 7200,
             "startTimeSeconds": 1795271700,
-            "relativeTimeSeconds": -1432135
+            "relativeTimeSeconds": -1262160
         },
         {
             "id": 2288,
@@ -192256,7 +192383,7 @@
             "frozen": false,
             "durationSeconds": 7200,
             "startTimeSeconds": 1795271700,
-            "relativeTimeSeconds": -1432135
+            "relativeTimeSeconds": -1262160
         },
         {
             "id": 2285,
@@ -192266,7 +192393,7 @@
             "frozen": false,
             "durationSeconds": 7200,
             "startTimeSeconds": 1794753300,
-            "relativeTimeSeconds": -913735
+            "relativeTimeSeconds": -743760
         },
         {
             "id": 2279,
@@ -192276,7 +192403,7 @@
             "frozen": false,
             "durationSeconds": 9000,
             "startTimeSeconds": 1794062100,
-            "relativeTimeSeconds": -222535
+            "relativeTimeSeconds": -52560
         },
         {
             "id": 2280,
@@ -192286,18 +192413,8 @@
             "frozen": false,
             "durationSeconds": 9000,
             "startTimeSeconds": 1794062100,
-            "relativeTimeSeconds": -222535
-        },
-        {
-            "id": 2284,
-            "name": "Codeforces Round 1132 (Div. 2)",
-            "type": "CF",
-            "phase": "BEFORE",
-            "frozen": false,
-            "durationSeconds": 8100,
-            "startTimeSeconds": 1793975700,
-            "relativeTimeSeconds": -136135
+            "relativeTimeSeconds": -52561
         }
     ],
-    "last_updated": "2026-11-05T00:46:50.360226+00:00"
+    "last_updated": "2026-11-06T23:59:49.179909+00:00"
 }

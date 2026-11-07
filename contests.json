@@ -192346,6 +192346,119 @@
             ]
         },
         {
+            "id": 2279,
+            "name": "Codeforces Round 1133 (Div. 1)",
+            "type": "CF",
+            "phase": "FINISHED",
+            "frozen": false,
+            "durationSeconds": 9000,
+            "startTimeSeconds": 1794062100,
+            "relativeTimeSeconds": 32101,
+            "div": "1",
+            "problems": [
+                {
+                    "contestId": 2279,
+                    "index": "A",
+                    "name": "Reverse and Double",
+                    "type": "PROGRAMMING",
+                    "points": 750.0,
+                    "tags": [
+                        "implementation"
+                    ],
+                    "solvedCount": 3894
+                },
+                {
+                    "contestId": 2279,
+                    "index": "B",
+                    "name": "Balanced Subsets",
+                    "type": "PROGRAMMING",
+                    "points": 1000.0,
+                    "tags": [
+                        "bitmasks",
+                        "dp"
+                    ],
+                    "solvedCount": 2040
+                },
+                {
+                    "contestId": 2279,
+                    "index": "C",
+                    "name": "Anti-Productive",
+                    "type": "PROGRAMMING",
+                    "points": 1250.0,
+                    "tags": [
+                        "greedy"
+                    ],
+                    "solvedCount": 1267
+                },
+                {
+                    "contestId": 2279,
+                    "index": "D",
+                    "name": "Meta Graph",
+                    "type": "PROGRAMMING",
+                    "points": 1750.0,
+                    "tags": [
+                        "brute force",
+                        "constructive algorithms",
+                        "graphs"
+                    ],
+                    "solvedCount": 336
+                },
+                {
+                    "contestId": 2279,
+                    "index": "E",
+                    "name": "Save Me!",
+                    "type": "PROGRAMMING",
+                    "points": 2250.0,
+                    "tags": [],
+                    "solvedCount": 63
+                },
+                {
+                    "contestId": 2279,
+                    "index": "F",
+                    "name": "The Stones of Nim",
+                    "type": "PROGRAMMING",
+                    "points": 3000.0,
+                    "tags": [],
+                    "solvedCount": 17
+                }
+            ]
+        },
+        {
+            "id": 2280,
+            "name": "Codeforces Round 1133 (Div. 2)",
+            "type": "CF",
+            "phase": "FINISHED",
+            "frozen": false,
+            "durationSeconds": 9000,
+            "startTimeSeconds": 1794062100,
+            "relativeTimeSeconds": 32101,
+            "div": "2",
+            "problems": [
+                {
+                    "contestId": 2280,
+                    "index": "A",
+                    "name": "Are They the Same?",
+                    "type": "PROGRAMMING",
+                    "points": 500.0,
+                    "tags": [
+                        "implementation"
+                    ],
+                    "solvedCount": 6965
+                },
+                {
+                    "contestId": 2280,
+                    "index": "B",
+                    "name": "Secret String Patterns",
+                    "type": "PROGRAMMING",
+                    "points": 1000.0,
+                    "tags": [
+                        "interactive"
+                    ],
+                    "solvedCount": 5525
+                }
+            ]
+        },
+        {
             "id": 2282,
             "name": "Kotlin Heroes: Episode 15",
             "type": "ICPC",
@@ -192353,7 +192466,7 @@
             "frozen": false,
             "durationSeconds": 9000,
             "startTimeSeconds": 1796740500,
-            "relativeTimeSeconds": -2730960
+            "relativeTimeSeconds": -2646299
         },
         {
             "id": 2286,
@@ -192363,7 +192476,7 @@
             "frozen": false,
             "durationSeconds": 604800,
             "startTimeSeconds": 1796135400,
-            "relativeTimeSeconds": -2125860
+            "relativeTimeSeconds": -2041199
         },
         {
             "id": 2287,
@@ -192373,7 +192486,7 @@
             "frozen": false,
             "durationSeconds": 7200,
             "startTimeSeconds": 1795271700,
-            "relativeTimeSeconds": -1262160
+            "relativeTimeSeconds": -1177499
         },
         {
             "id": 2288,
@@ -192383,7 +192496,7 @@
             "frozen": false,
             "durationSeconds": 7200,
             "startTimeSeconds": 1795271700,
-            "relativeTimeSeconds": -1262160
+            "relativeTimeSeconds": -1177499
         },
         {
             "id": 2285,
@@ -192393,28 +192506,18 @@
             "frozen": false,
             "durationSeconds": 7200,
             "startTimeSeconds": 1794753300,
-            "relativeTimeSeconds": -743760
+            "relativeTimeSeconds": -659099
         },
         {
-            "id": 2279,
-            "name": "Codeforces Round 1133 (Div. 1)",
-            "type": "CF",
+            "id": 2290,
+            "name": "Codeforces Round 1134 (Div. 4)",
+            "type": "ICPC",
             "phase": "BEFORE",
             "frozen": false,
-            "durationSeconds": 9000,
-            "startTimeSeconds": 1794062100,
-            "relativeTimeSeconds": -52560
-        },
-        {
-            "id": 2280,
-            "name": "Codeforces Round 1133 (Div. 2)",
-            "type": "CF",
-            "phase": "BEFORE",
-            "frozen": false,
-            "durationSeconds": 9000,
-            "startTimeSeconds": 1794062100,
-            "relativeTimeSeconds": -52561
+            "durationSeconds": 8100,
+            "startTimeSeconds": 1794494100,
+            "relativeTimeSeconds": -399899
         }
     ],
-    "last_updated": "2026-11-06T23:59:49.179909+00:00"
+    "last_updated": "2026-11-07T23:30:46.893529+00:00"
 }

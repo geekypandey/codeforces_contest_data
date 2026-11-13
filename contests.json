@@ -192459,6 +192459,126 @@
             ]
         },
         {
+            "id": 2290,
+            "name": "Codeforces Round 1134 (Div. 4)",
+            "type": "ICPC",
+            "phase": "FINISHED",
+            "frozen": false,
+            "durationSeconds": 8100,
+            "startTimeSeconds": 1794494100,
+            "relativeTimeSeconds": 37311,
+            "div": "4",
+            "problems": [
+                {
+                    "contestId": 2290,
+                    "index": "A",
+                    "name": "Three Piles",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "implementation",
+                        "math"
+                    ],
+                    "solvedCount": 18954
+                },
+                {
+                    "contestId": 2290,
+                    "index": "B",
+                    "name": "Stubborn Pen",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "implementation",
+                        "strings"
+                    ],
+                    "solvedCount": 17166
+                },
+                {
+                    "contestId": 2290,
+                    "index": "C",
+                    "name": "Books on a Shelf",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "constructive algorithms",
+                        "greedy",
+                        "sortings"
+                    ],
+                    "solvedCount": 11804
+                },
+                {
+                    "contestId": 2290,
+                    "index": "D",
+                    "name": "Letters Down",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "data structures",
+                        "greedy",
+                        "implementation",
+                        "strings"
+                    ],
+                    "solvedCount": 8338
+                },
+                {
+                    "contestId": 2290,
+                    "index": "E",
+                    "name": "Avalanche",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "dp",
+                        "games",
+                        "math"
+                    ],
+                    "solvedCount": 4572
+                },
+                {
+                    "contestId": 2290,
+                    "index": "F",
+                    "name": "Value Counters",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "binary search",
+                        "constructive algorithms",
+                        "math"
+                    ],
+                    "solvedCount": 2033
+                },
+                {
+                    "contestId": 2290,
+                    "index": "G1",
+                    "name": "Lakeside Trail (Easy Version)",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "binary search",
+                        "brute force",
+                        "math"
+                    ],
+                    "solvedCount": 1429
+                },
+                {
+                    "contestId": 2290,
+                    "index": "G2",
+                    "name": "Lakeside Trail (Hard Version)",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "binary search",
+                        "greedy",
+                        "math"
+                    ],
+                    "solvedCount": 871
+                },
+                {
+                    "contestId": 2290,
+                    "index": "H",
+                    "name": "Extra Road",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "dfs and similar",
+                        "greedy",
+                        "trees"
+                    ],
+                    "solvedCount": 745
+                }
+            ]
+        },
+        {
             "id": 2282,
             "name": "Kotlin Heroes: Episode 15",
             "type": "ICPC",
@@ -192466,7 +192586,7 @@
             "frozen": false,
             "durationSeconds": 9000,
             "startTimeSeconds": 1796740500,
-            "relativeTimeSeconds": -2646299
+            "relativeTimeSeconds": -2209089
         },
         {
             "id": 2286,
@@ -192476,7 +192596,7 @@
             "frozen": false,
             "durationSeconds": 604800,
             "startTimeSeconds": 1796135400,
-            "relativeTimeSeconds": -2041199
+            "relativeTimeSeconds": -1603989
         },
         {
             "id": 2287,
@@ -192486,7 +192606,7 @@
             "frozen": false,
             "durationSeconds": 7200,
             "startTimeSeconds": 1795271700,
-            "relativeTimeSeconds": -1177499
+            "relativeTimeSeconds": -740289
         },
         {
             "id": 2288,
@@ -192496,28 +192616,18 @@
             "frozen": false,
             "durationSeconds": 7200,
             "startTimeSeconds": 1795271700,
-            "relativeTimeSeconds": -1177499
+            "relativeTimeSeconds": -740289
         },
         {
             "id": 2285,
-            "name": "Codeforces Round (Div. 2)",
+            "name": "Codeforces Round 1135 (Div. 2)",
             "type": "CF",
             "phase": "BEFORE",
             "frozen": false,
             "durationSeconds": 7200,
             "startTimeSeconds": 1794753300,
-            "relativeTimeSeconds": -659099
-        },
-        {
-            "id": 2290,
-            "name": "Codeforces Round 1134 (Div. 4)",
-            "type": "ICPC",
-            "phase": "BEFORE",
-            "frozen": false,
-            "durationSeconds": 8100,
-            "startTimeSeconds": 1794494100,
-            "relativeTimeSeconds": -399899
+            "relativeTimeSeconds": -221889
         }
     ],
-    "last_updated": "2026-11-07T23:30:46.893529+00:00"
+    "last_updated": "2026-11-13T00:57:15.139515+00:00"
 }

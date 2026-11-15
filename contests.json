@@ -192579,6 +192579,95 @@
             ]
         },
         {
+            "id": 2285,
+            "name": "Codeforces Round 1135 (Div. 2)",
+            "type": "CF",
+            "phase": "FINISHED",
+            "frozen": false,
+            "durationSeconds": 7200,
+            "startTimeSeconds": 1794753300,
+            "relativeTimeSeconds": 33330,
+            "div": "2",
+            "problems": [
+                {
+                    "contestId": 2285,
+                    "index": "A",
+                    "name": "Composite Permutation",
+                    "type": "PROGRAMMING",
+                    "points": 500.0,
+                    "tags": [
+                        "constructive algorithms",
+                        "math"
+                    ],
+                    "solvedCount": 7835
+                },
+                {
+                    "contestId": 2285,
+                    "index": "B",
+                    "name": "Diverse String",
+                    "type": "PROGRAMMING",
+                    "points": 1250.0,
+                    "tags": [
+                        "combinatorics",
+                        "strings"
+                    ],
+                    "solvedCount": 5334
+                },
+                {
+                    "contestId": 2285,
+                    "index": "C",
+                    "name": "Max Substitution",
+                    "type": "PROGRAMMING",
+                    "points": 1500.0,
+                    "tags": [
+                        "data structures",
+                        "math",
+                        "sortings",
+                        "two pointers"
+                    ],
+                    "solvedCount": 3485
+                },
+                {
+                    "contestId": 2285,
+                    "index": "D",
+                    "name": "Reverse Partition",
+                    "type": "PROGRAMMING",
+                    "points": 2000.0,
+                    "tags": [
+                        "combinatorics",
+                        "data structures"
+                    ],
+                    "solvedCount": 1267
+                },
+                {
+                    "contestId": 2285,
+                    "index": "E",
+                    "name": "Arithmetic Subarray",
+                    "type": "PROGRAMMING",
+                    "points": 2500.0,
+                    "tags": [
+                        "data structures",
+                        "greedy",
+                        "implementation",
+                        "two pointers"
+                    ],
+                    "solvedCount": 229
+                },
+                {
+                    "contestId": 2285,
+                    "index": "F",
+                    "name": "Mooclear Reactor 3",
+                    "type": "PROGRAMMING",
+                    "points": 3250.0,
+                    "tags": [
+                        "data structures",
+                        "graphs"
+                    ],
+                    "solvedCount": 69
+                }
+            ]
+        },
+        {
             "id": 2282,
             "name": "Kotlin Heroes: Episode 15",
             "type": "ICPC",
@@ -192586,7 +192675,7 @@
             "frozen": false,
             "durationSeconds": 9000,
             "startTimeSeconds": 1796740500,
-            "relativeTimeSeconds": -2209089
+            "relativeTimeSeconds": -1953869
         },
         {
             "id": 2286,
@@ -192596,7 +192685,17 @@
             "frozen": false,
             "durationSeconds": 604800,
             "startTimeSeconds": 1796135400,
-            "relativeTimeSeconds": -1603989
+            "relativeTimeSeconds": -1348769
+        },
+        {
+            "id": 2289,
+            "name": "Codeforces Round (Div. 2)",
+            "type": "CF",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 7200,
+            "startTimeSeconds": 1795338300,
+            "relativeTimeSeconds": -551669
         },
         {
             "id": 2287,
@@ -192606,7 +192705,7 @@
             "frozen": false,
             "durationSeconds": 7200,
             "startTimeSeconds": 1795271700,
-            "relativeTimeSeconds": -740289
+            "relativeTimeSeconds": -485070
         },
         {
             "id": 2288,
@@ -192616,18 +192715,8 @@
             "frozen": false,
             "durationSeconds": 7200,
             "startTimeSeconds": 1795271700,
-            "relativeTimeSeconds": -740289
-        },
-        {
-            "id": 2285,
-            "name": "Codeforces Round 1135 (Div. 2)",
-            "type": "CF",
-            "phase": "BEFORE",
-            "frozen": false,
-            "durationSeconds": 7200,
-            "startTimeSeconds": 1794753300,
-            "relativeTimeSeconds": -221889
+            "relativeTimeSeconds": -485070
         }
     ],
-    "last_updated": "2026-11-13T00:57:15.139515+00:00"
+    "last_updated": "2026-11-15T23:51:26.990469+00:00"
 }

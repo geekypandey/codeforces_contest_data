@@ -192806,6 +192806,100 @@
             ]
         },
         {
+            "id": 2289,
+            "name": "Codeforces Round 1137 (Div. 2)",
+            "type": "CF",
+            "phase": "FINISHED",
+            "frozen": false,
+            "durationSeconds": 7200,
+            "startTimeSeconds": 1795338300,
+            "relativeTimeSeconds": 55982,
+            "div": "2",
+            "problems": [
+                {
+                    "contestId": 2289,
+                    "index": "A",
+                    "name": "Problem from Dolgoderevenskoye",
+                    "type": "PROGRAMMING",
+                    "points": 500.0,
+                    "tags": [
+                        "math"
+                    ],
+                    "solvedCount": 4842
+                },
+                {
+                    "contestId": 2289,
+                    "index": "B",
+                    "name": "Problem from Chebarkul",
+                    "type": "PROGRAMMING",
+                    "points": 750.0,
+                    "tags": [
+                        "data structures",
+                        "implementation"
+                    ],
+                    "solvedCount": 3885
+                },
+                {
+                    "contestId": 2289,
+                    "index": "C",
+                    "name": "Problem from Ust-Katav",
+                    "type": "PROGRAMMING",
+                    "points": 1250.0,
+                    "tags": [
+                        "binary search",
+                        "data structures",
+                        "divide and conquer"
+                    ],
+                    "solvedCount": 2831
+                },
+                {
+                    "contestId": 2289,
+                    "index": "D",
+                    "name": "Problem from Yuzhnouralsk",
+                    "type": "PROGRAMMING",
+                    "points": 2000.0,
+                    "tags": [
+                        "data structures",
+                        "greedy",
+                        "meet-in-the-middle",
+                        "sortings",
+                        "two pointers"
+                    ],
+                    "solvedCount": 1273
+                },
+                {
+                    "contestId": 2289,
+                    "index": "E",
+                    "name": "The Problem from Silach",
+                    "type": "PROGRAMMING",
+                    "points": 2000.0,
+                    "tags": [
+                        "brute force",
+                        "data structures",
+                        "dp",
+                        "dsu",
+                        "trees",
+                        "two pointers"
+                    ],
+                    "solvedCount": 494
+                },
+                {
+                    "contestId": 2289,
+                    "index": "F",
+                    "name": "Problem from Malinovka",
+                    "type": "PROGRAMMING",
+                    "points": 2500.0,
+                    "tags": [
+                        "brute force",
+                        "implementation",
+                        "math",
+                        "number theory"
+                    ],
+                    "solvedCount": 141
+                }
+            ]
+        },
+        {
             "id": 2282,
             "name": "Kotlin Heroes: Episode 15",
             "type": "ICPC",
@@ -192813,7 +192907,7 @@
             "frozen": false,
             "durationSeconds": 9000,
             "startTimeSeconds": 1796740500,
-            "relativeTimeSeconds": -1434361
+            "relativeTimeSeconds": -1346218
         },
         {
             "id": 2291,
@@ -192823,7 +192917,7 @@
             "frozen": false,
             "durationSeconds": 1209600,
             "startTimeSeconds": 1796727600,
-            "relativeTimeSeconds": -1421461
+            "relativeTimeSeconds": -1333318
         },
         {
             "id": 2286,
@@ -192833,18 +192927,8 @@
             "frozen": false,
             "durationSeconds": 604800,
             "startTimeSeconds": 1796135400,
-            "relativeTimeSeconds": -829261
-        },
-        {
-            "id": 2289,
-            "name": "Codeforces Round 1137 (Div. 2)",
-            "type": "CF",
-            "phase": "BEFORE",
-            "frozen": false,
-            "durationSeconds": 7200,
-            "startTimeSeconds": 1795338300,
-            "relativeTimeSeconds": -32161
+            "relativeTimeSeconds": -741119
         }
     ],
-    "last_updated": "2026-11-22T00:09:39.599917+00:00"
+    "last_updated": "2026-11-23T00:38:12.558914+00:00"
 }

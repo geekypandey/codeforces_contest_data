@@ -192900,6 +192900,121 @@
             ]
         },
         {
+            "id": 2292,
+            "name": "Codeforces Round 1138 (Div. 3)",
+            "type": "ICPC",
+            "phase": "FINISHED",
+            "frozen": false,
+            "durationSeconds": 8100,
+            "startTimeSeconds": 1795790100,
+            "relativeTimeSeconds": 42974,
+            "div": "3",
+            "problems": [
+                {
+                    "contestId": 2292,
+                    "index": "A",
+                    "name": "Picnic for Two",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "implementation",
+                        "math"
+                    ],
+                    "solvedCount": 11346
+                },
+                {
+                    "contestId": 2292,
+                    "index": "B",
+                    "name": "Grapefruit Juice",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "greedy",
+                        "sortings"
+                    ],
+                    "solvedCount": 9686
+                },
+                {
+                    "contestId": 2292,
+                    "index": "C",
+                    "name": "Finding Shapes in the Clouds",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "constructive algorithms",
+                        "strings"
+                    ],
+                    "solvedCount": 7163
+                },
+                {
+                    "contestId": 2292,
+                    "index": "D",
+                    "name": "Unexpected Precipitation",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "dp",
+                        "games"
+                    ],
+                    "solvedCount": 4486
+                },
+                {
+                    "contestId": 2292,
+                    "index": "E",
+                    "name": "Blush",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "binary search",
+                        "bitmasks",
+                        "math"
+                    ],
+                    "solvedCount": 1666
+                },
+                {
+                    "contestId": 2292,
+                    "index": "F",
+                    "name": "Pink-Black",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "constructive algorithms",
+                        "dfs and similar",
+                        "dsu",
+                        "graphs"
+                    ],
+                    "solvedCount": 660
+                },
+                {
+                    "contestId": 2292,
+                    "index": "G",
+                    "name": "Soft Memories",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "greedy",
+                        "sortings"
+                    ],
+                    "solvedCount": 433
+                },
+                {
+                    "contestId": 2292,
+                    "index": "H",
+                    "name": "Missed Call",
+                    "type": "PROGRAMMING",
+                    "tags": [
+                        "dp",
+                        "graphs",
+                        "trees"
+                    ],
+                    "solvedCount": 134
+                }
+            ]
+        },
+        {
+            "id": 2293,
+            "name": "Educational Codeforces Round 197 (Rated for Div. 2)",
+            "type": "ICPC",
+            "phase": "BEFORE",
+            "frozen": false,
+            "durationSeconds": 7200,
+            "startTimeSeconds": 1797258900,
+            "relativeTimeSeconds": -1425826
+        },
+        {
             "id": 2282,
             "name": "Kotlin Heroes: Episode 15",
             "type": "ICPC",
@@ -192907,7 +193022,7 @@
             "frozen": false,
             "durationSeconds": 9000,
             "startTimeSeconds": 1796740500,
-            "relativeTimeSeconds": -1346218
+            "relativeTimeSeconds": -907426
         },
         {
             "id": 2291,
@@ -192917,7 +193032,7 @@
             "frozen": false,
             "durationSeconds": 1209600,
             "startTimeSeconds": 1796727600,
-            "relativeTimeSeconds": -1333318
+            "relativeTimeSeconds": -894526
         },
         {
             "id": 2286,
@@ -192927,8 +193042,8 @@
             "frozen": false,
             "durationSeconds": 604800,
             "startTimeSeconds": 1796135400,
-            "relativeTimeSeconds": -741119
+            "relativeTimeSeconds": -302326
         }
     ],
-    "last_updated": "2026-11-23T00:38:12.558914+00:00"
+    "last_updated": "2026-11-28T02:31:55.696728+00:00"
 }
